@@ -68,3 +68,20 @@ let newRow = string.split(' ');
 return newRow;
 }
 ```
+* Determine offspring sex based on genes XX and XY chromosomes
+```javascript
+// first solution:
+function chromosomeCheck(sperm) {
+  let resDaughter = "Congratulations! You're going to have a daughter.";
+  let resSon = "Congratulations! You're going to have a son.";
+  if (sperm === 'XX'){
+  return resDaughter;
+  } else {
+  if (sperm === 'XY'){
+  return resSon
+}}}
+
+// second solution:
+function chromosomeCheck(sperm) {
+  return "Congratulations! You're going to have a " + (sperm === 'XX' ? 'daughter' : 'son') + "."
+}```
