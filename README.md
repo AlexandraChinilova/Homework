@@ -21,6 +21,30 @@ function removeChar(str){
   return str;
 }
 ```
+* Will you make it?
+```javascript
+function zeroFuel (s, mpg, g)  {
+  if ( s <= mpg * g)return true;
+  else return false
+}
+```
+* Capitalization and Mutability
+```javascript
+function capitalizeWord(word) {
+let newWord = word[0].toUpperCase();
+for(let i = 1; i < word.length; i++){
+newWord += word[i];
+}
+  return newWord;
+}
+```
+* Type of sum
+```javascript
+function typeOfSum(a, b) {
+  let sum = a + b
+  return typeof(sum)
+}
+```
 * If you can't sleep, just count sheep!!
 ```javascript
 function countSheep(num){
@@ -37,7 +61,10 @@ function opposite(number) {
  return number = - number
 }
 ```
-
-
+* Convert a string to an array
 ```javascript
+function stringToArray(string){
+let newRow = string.split(' ');
+return newRow;
+}
 ```
