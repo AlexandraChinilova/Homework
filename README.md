@@ -84,4 +84,19 @@ function chromosomeCheck(sperm) {
 // second solution:
 function chromosomeCheck(sperm) {
   return "Congratulations! You're going to have a " + (sperm === 'XX' ? 'daughter' : 'son') + "."
-}```
+}
+```
+* Thinkful - Logic Drills: Traffic light
+```javascript
+function updateLight(current) {
+ if (current === 'green'){
+ return 'yellow';
+ } else {
+ if (current === 'yellow'){
+ return 'red';
+ } else {
+ return 'green'
+ };
+ };
+}
+```
