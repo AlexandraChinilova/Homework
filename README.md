@@ -2,7 +2,7 @@ Hello
 
 ===========================================
 
-#Tasks from Codewars
+# Tasks from Codewars
 
 * Function 1 - hello world
 ```javascript
@@ -98,5 +98,64 @@ function updateLight(current) {
  return 'green'
  };
  };
+}
+```
+* The Feast of Many Beasts
+```javascript
+function feast(beast, dish) {
+return (beast[0] == dish[0] && beast[beast.length-1] == dish[dish.length-1]) ? true : false ;
+}
+```
+* Simple multiplication
+```javascript
+function simpleMultiplication(number) {
+let res = 0;
+return number % 2 == 0 ? res = number * 8 : res = number * 9;
+}
+// not mine, but good solution:
+function simpleMultiplication(n) {
+    return n * (n % 2 ? 9 : 8);
+}
+```
+* Student's Final Grade
+```javascript
+/// first solution with if:
+
+function finalGrade (exam, projects) {
+  if (exam > 90 || projects > 10) {
+  return 100;
+  } else {
+   if (exam > 75 && projects >= 5) {
+   return 90;
+   } else {
+    if (exam > 50 && projects >= 2) {
+    return 75;
+    } else {
+     return 0;
+     };
+    };
+}
+
+// second solution with for:
+
+function finalGrade (exam, projects) {
+  for (; exam > 90 || projects > 10; ) {
+  return 100;
+  }
+  for (; exam > 75 && projects >= 5; ) {
+   return 90;
+  }
+  for (; exam > 50 && projects >= 2; ) {
+    return 75;
+  }
+  return 0;
+}
+
+// other good solution:
+function finalGrade(exam, projects) {
+    if (exam > 90 || projects > 10) return 100;
+    if (exam > 75 && projects >= 5) return 90;
+    if (exam > 50 && projects >= 2) return 75;
+    return 0;
 }
 ```
