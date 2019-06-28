@@ -159,3 +159,17 @@ function finalGrade(exam, projects) {
     return 0;
 }
 ```
+* Reverse a Number
+```javascript
+// solved together with students
+function reverseNumber(n) {
+  if (n >= 0) {
+  let arr = n.toString().split('').reverse();
+    return +(arr.join(''))
+    } else {
+    n = n * (-1);
+    arr = n.toString().split('').reverse();
+    return (-1) * (+(arr.join('')))
+    }
+}
+```
