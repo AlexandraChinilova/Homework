@@ -173,3 +173,30 @@ function reverseNumber(n) {
     }
 }
 ```
+* Get list sum recursively
+```javascript
+// first solution:
+function sumR(x) {
+if (x.length > 0){
+return x.shift() + sumR(x);
+} else {
+  return 0;
+  }
+}
+
+// second solution: 
+function sumR(x) {
+if (x.length === 0){
+return 0;
+} else {
+return x.shift() + sumR(x);
+}
+}
+```
+* Reverse List Order
+```javascript
+function reverseList(list) {
+let newList = list.reverse();
+return newList
+}
+```
