@@ -234,3 +234,27 @@ let arr = ['Zero', 'One', 'Two', 'Tree', 'Four', 'Five', 'Six', 'Seven', 'Eigth'
 ```
 
 * Try to see branch after created.
+
+* Alphabet symmetry
+```javascript
+function solve(arr){
+  let newArr = [];
+   for (i = 0; i < arr.length; i++){
+    let word = arr[i];
+     
+function wordCount(word){  
+let alfabet   = 'abcdefghijklmnopqrstuvwxyz';
+let alfabetUp = 'ABCDEFGHIJKLMNOPQRATUVWXYZ'
+let res = 0;
+for (j = 0; j < word.length; j++){
+  if (alfabet[j] === word[j] || alfabetUp[j] === word[j]){
+    res++;
+  }
+ }
+return res;
+}
+  newArr.push(wordCount(arr[i]));
+}
+ return newArr;
+}
+```
