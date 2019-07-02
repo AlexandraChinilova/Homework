@@ -301,5 +301,42 @@ function noSpace(x){return x.split(' ').join('')}
 function bonusTime(salary, bonus) {
 return salary10 = '£' + (bonus === true ? salary * 10 : salary);
 }
+```
+* Credit card issuer checking
+```javascript
+function getIssuer(number) {
+iss = String(number);
+ if (iss.length == 13 && iss.substring(0,1) == 4 || iss.length == 16 && iss.substring(0,1) == 4){
+   return 'VISA'
+ }
+  if (iss.substring(0,2) == 34 || iss.substring(0,2) == 37 && iss.length == 15){
+   return 'AMEX'
+  }
+   if (iss.substring(0,4) == 6011 && iss.length == 16){
+    return 'Discover'
+   }
+    if (iss.substring(0,2) == 51 ||
+        iss.substring(0,2) == 52 ||
+        iss.substring(0,2) == 53 ||
+        iss.substring(0,2) == 54 ||
+        iss.substring(0,2) == 55 && iss.length == 16){
+     return 'Mastercard'
+    }
+    return 'Unknown';
+}
 
+// можно с использованием Метода STARTSWITH (чужой вариант):
+function getIssuer(number) {
+  var card = number.toString();
+  if((card.startsWith('34') || card.startsWith('37')) && card.length == 15)
+    return 'AMEX';
+  else if(card.startsWith('6011') && card.length == 16)
+    return 'Discover';
+  else if(+card.slice(0,2)>50 && +card.slice(0,2)<56 && card.length==16)
+    return 'Mastercard';
+  else if(card.startsWith('4') && (card.length==13 || card.length == 16))
+    return 'VISA';
+  else
+    return 'Unknown';
+}
 ```
