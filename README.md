@@ -281,3 +281,18 @@ function solution(str, ending){
   return str.endsWith(ending);
 }
 ```
+* Remove String Spaces
+```javascript
+function noSpace(x){
+let newRow = '';
+for ( i=0; i < x.length; i++){
+ if (x.charAt(i) !== ' '){
+  newRow = newRow + x.charAt(i);
+  };
+};
+return newRow
+}
+
+// можно использовать методы:
+function noSpace(x){return x.split(' ').join('')}
+```
