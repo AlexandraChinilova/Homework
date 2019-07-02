@@ -296,3 +296,10 @@ return newRow
 // можно использовать методы:
 function noSpace(x){return x.split(' ').join('')}
 ```
+* Do I get a bonus?
+```javascript
+function bonusTime(salary, bonus) {
+return salary10 = '£' + (bonus === true ? salary * 10 : salary);
+}
+
+```
