@@ -270,3 +270,14 @@ for (i=0; i < arr.length ; i++) {
  return Math.min.apply(Math, count)
 }
 ```
+* String ends with?
+```javascript
+function solution(str, ending){
+  return (str.slice(-ending.length)===ending)
+}
+// с применением метода endsWith будет выглядеть так:
+
+function solution(str, ending){
+  return str.endsWith(ending);
+}
+```
