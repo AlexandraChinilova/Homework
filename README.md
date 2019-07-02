@@ -339,4 +339,22 @@ function getIssuer(number) {
   else
     return 'Unknown';
 }
+
+// мое измененное решение с учетом нового Метода:
+function getIssuer(number) {
+iss = String(number);
+ if (iss.length == 13 && iss.startsWith('4') || iss.length == 16 && iss.startsWith('4')){
+   return 'VISA'
+ }
+  if (iss.startsWith('34') || iss.startsWith('37') && iss.length == 15){
+   return 'AMEX'
+  }
+   if (iss.substring(0,4) == 6011 && iss.length == 16){
+    return 'Discover'
+   }
+    if (iss.substring(0,2) >=51 && iss.substring(0,2) <= 55 && iss.length == 16){
+     return 'Mastercard'
+    }
+    return 'Unknown';
+}
 ```
