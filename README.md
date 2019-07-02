@@ -258,3 +258,15 @@ return res;
  return newArr;
 }
 ```
+* Shortest Word
+```javascript
+function findShort(s){
+let arr = s.split(' ');
+let count =[];
+  
+for (i=0; i < arr.length ; i++) {
+  count.push(arr[i].length);
+ }
+ return Math.min.apply(Math, count)
+}
+```
