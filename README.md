@@ -358,3 +358,36 @@ iss = String(number);
     return 'Unknown';
 }
 ```
+* sPoNgEbOb MeMe
+```javascript
+function spongeMeme(s) {
+  let MeMe = '';
+   for (i=0; i < s.length; i++){
+     if (i % 2 === 0){
+       MeMe += s[i].toUpperCase()
+     } else {
+       MeMe += s[i].toLowerCase()
+     }
+     }
+  return MeMe
+}
+
+// another view:
+function spongeMeme(s) {
+  let MeMe = '';
+   for (i=0; i < s.length; i++){
+     i % 2 === 0 ? MeMe += s[i].toUpperCase() : MeMe += s[i].toLowerCase();
+     }
+  return MeMe
+}
+```
+* Double Char
+```javascript
+function doubleChar(str) {
+  let double ='';
+  for (i=0; i < str.length; i++){
+     double += '' + str[i] + str[i]
+  }
+  return double
+}
+```
