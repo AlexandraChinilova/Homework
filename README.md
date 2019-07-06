@@ -434,3 +434,21 @@ for (i=0; i < n; i++){
   return res;
 }
 ```
+* Mumbling
+```javascript
+function accum(s) {
+ let newRow = '';
+ let newW = '';
+  for (i=0; i < s.length; i++){
+   newW = '';
+    newW = s[i].repeat(i+1);
+    newW = newW.toLowerCase();
+    newW = newW[0].toUpperCase() + newW.substring(1);
+    if (i === s.length-1){
+      newRow += newW + '';
+    } else {
+   newRow += newW + '-';
+   }}
+  return newRow
+}
+```
