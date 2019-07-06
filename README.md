@@ -391,3 +391,26 @@ function doubleChar(str) {
   return double
 }
 ```
+
+* !!! WeIrD StRiNg CaSe - back to task, level to high - 6
+```javascript
+function toWeirdCase(s){
+  let Weird = s[0].toUpperCase() + '';
+   for (i=1; i < s.length; i++){
+     if (s[i] == ' ') {
+      Weird += s[i];
+     } else {
+       if (i % 2){
+         Weird += s[i].toLowerCase()
+       } else {
+       Weird += s[i].toUpperCase();
+        }
+     }}
+  return Weird
+}
+
+console.log(toWeirdCase('This is a test'));
+
+// 'ThIs Is A TeSt' - must be
+// 'ThIs iS A TeSt' - wrong result
+```
