@@ -414,3 +414,13 @@ console.log(toWeirdCase('This is a test'));
 // 'ThIs Is A TeSt' - must be
 // 'ThIs iS A TeSt' - wrong result
 ```
+* String repeat
+```javascript
+function repeatStr (n, s) {
+let res = '';
+for (i=0; i < n; i++){
+ res += s
+ }
+  return res;
+}
+```
