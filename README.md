@@ -452,3 +452,21 @@ function accum(s) {
   return newRow
 }
 ```
+* Initialize my name
+```javascript
+function initial(short){
+ let arr = short.split(' ');
+  let ini = '';
+   let newArr = [];
+ console.log(arr);
+  if (arr.length > 2){
+    for (i=1; i < (arr.length-1); i++){
+   ini += arr[i].substring(0,1).toUpperCase() + '. '
+    }
+    ini = arr[0] + ' ' + ini + arr[arr.length-1]
+    return ini
+  } else {
+return newArr = arr.join(' ');
+  }
+} 
+```
