@@ -483,3 +483,23 @@ function initializeNames(name){
   return str;
 }
 ```
+* Array Array Array
+```javascript
+function explode(x){
+ if (typeof x[0] === 'number' && typeof x[1] === 'number'){
+   let c = x[0] + x[1];
+   return new Array(c).fill(x);
+   }
+   if (typeof x[0] === 'string' && typeof x[1] === 'number'){
+     let d = x[1];
+    return new Array(d).fill(x);
+   }
+  if (typeof x[0] === 'number' && typeof x[1] === 'string'){
+     let f = x[0];
+    return new Array(f).fill(x);
+   }
+    if (typeof x[0] === 'string' && typeof x[1] === 'string'){
+      return str = 'Void!'
+    }
+}
+```
