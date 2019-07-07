@@ -454,7 +454,7 @@ function accum(s) {
 ```
 * Initialize my name
 ```javascript
-function initial(short){
+function initializeNames(short){
  let arr = short.split(' ');
   let ini = '';
    let newArr = [];
@@ -469,4 +469,17 @@ function initial(short){
 return newArr = arr.join(' ');
   }
 } 
+
+// Обратиться к символу в элементе массива: nameArr[i][0]
+// better solution
+function initializeNames(name){
+  let arr = name.split(' ');
+  if (arr.length === 1) return name;
+  let str = arr[0] + ' ';
+  for (let i = 1; i < arr.length - 1; i++) {
+    str += arr[i][0] +'. ';
+  }
+  str += arr[arr.length-1];
+  return str;
+}
 ```
