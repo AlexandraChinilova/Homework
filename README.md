@@ -538,3 +538,13 @@ function sum(numbers) {
   return numbers.reduce((a, b) => a + b, 0);
 }
 ```
+* Find out whether the shape is a cube
+```javascript
+function cubeChecker(volume, side){
+  if (volume < 0 || side < 0){
+   return false}
+    if (volume/(side ** 3) === 1){
+     return true}
+  return false;
+}
+```
