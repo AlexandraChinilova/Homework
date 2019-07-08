@@ -503,3 +503,14 @@ function explode(x){
     }
 }
 ```
+* Return Negative
+```javascript
+function makeNegative(num) {
+  if (num <= 0) {
+   return num
+   }
+   if (num > 0) {
+    return num * -1;
+  }
+}
+```
