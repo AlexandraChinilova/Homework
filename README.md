@@ -523,3 +523,18 @@ let res = 0;
   else { return res = on + wait - cap}
 }
 ```
+* Sum Arrays
+```javascript
+function sum (numbers) {
+let a = 0;
+ for (i = 0; i < numbers.length; i++){
+  a = a + numbers[i];
+  }
+  return a
+}
+
+// Method REDUCE
+function sum(numbers) {
+  return numbers.reduce((a, b) => a + b, 0);
+}
+```
