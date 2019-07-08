@@ -514,3 +514,12 @@ function makeNegative(num) {
   }
 }
 ```
+* Will there be enough space?
+```javascript
+function enough(cap, on, wait) {
+let res = 0;
+ if (cap - on > wait){
+  return res}
+  else { return res = on + wait - cap}
+}
+```
