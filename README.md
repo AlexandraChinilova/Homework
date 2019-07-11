@@ -559,3 +559,12 @@ function countBy(x, n) {
   return z;
 }
 ```
+* Century From Year
+```javascript
+function century(year) {
+ if (year % 100 > 0) {
+ return res = Math.floor(year / 100) + 1}
+ else {
+ return res = Math.floor(year/ 100)}
+}
+```
