@@ -548,3 +548,14 @@ function cubeChecker(volume, side){
   return false;
 }
 ```
+* Count by X
+```javascript
+function countBy(x, n) {
+  let z = [];
+  let a = 0;
+ for (i=0; i < n; i++, a += x){
+   z.push(a+x);
+ }
+  return z;
+}
+```
