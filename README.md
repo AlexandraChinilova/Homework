@@ -568,3 +568,25 @@ function century(year) {
  return res = Math.floor(year/ 100)}
 }
 ```
+* Love vs friendship
+```javascript
+function wordsToMarks(string){
+  let alf = ' abcdefghijklmnopqrstuvwxyz';
+   let res = 0;
+  for (i=0; i < alf.length; i++){
+   for (j=0; j < string.length; j++){
+    if (string[j] === alf[i]){
+     res += i;
+   }}}
+  return res
+}
+
+// another solution Method charCodeAt()
+function wordsToMarks(str)
+{
+  var sum = 0;
+  for (let i = 0; i < str.length; i++)
+    sum += str.charCodeAt(i) - 96;
+  return sum;
+}
+```
