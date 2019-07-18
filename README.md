@@ -638,3 +638,13 @@ function greet(name){
   return str = `Hello, ${name} how are you doing today?`;
 }
 ```
+* Ordering the words!
+```javascript
+function orderWord(s){ 
+  let arr = [];
+  if (s === '' || s === null) {
+  return str = 'Invalid String!';
+  }
+ return arr = s.split('').sort().join('');
+}
+```
