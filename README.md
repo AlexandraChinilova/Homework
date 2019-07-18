@@ -632,3 +632,9 @@ function divisors(n) {
     return arr
 };
 ```
+* Returning Strings
+```javascript
+function greet(name){
+  return str = `Hello, ${name} how are you doing today?`;
+}
+```
