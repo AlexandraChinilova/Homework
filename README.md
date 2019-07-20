@@ -667,3 +667,31 @@ function toBinary(n){
   return +n.toString(2);
 }
 ```
+* Fake Binary
+```javascript
+function fakeBin(x){
+let res = '';
+for (i = 0; i<x.length; i++){
+ if (x[i] < 5){
+  res += '0';
+ } if (x[i] >= 5){
+    res += '1';
+  }
+}
+return res;
+}
+```
+
+* Simple Pig Latin
+```javascript
+function pigIt(str){
+  let arr = str.split(' ');
+   for (i = 0; i < arr.length; i++){
+     if (arr[i].match(/\w/) !== null && arr[i].match(/\D/) !== null) {
+     arr[i] = arr[i].substring(1) + arr[i][0].substring(0,1) + 'ay';
+     arr.push();
+     }
+   }
+  return res = arr.join(' ')
+}
+```
