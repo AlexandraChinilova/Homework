@@ -661,3 +661,9 @@ let str = n.toString(2);
   return count;
 }
 ```
+* Convert to Binary
+```javascript
+function toBinary(n){
+  return +n.toString(2);
+}
+```
