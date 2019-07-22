@@ -695,3 +695,19 @@ function pigIt(str){
   return res = arr.join(' ')
 }
 ```
+* Arrays Similar
+```javascript
+function arraysSimilar(arr1, arr2) {
+ if (arr1.length == arr2.length){
+  arr1.sort();
+   arr2.sort();
+ for (i=0, j=0; i < arr1.length && j < arr2.length; i++, j++){
+   if (arr1[i] === arr2[j]){
+   } else {
+   return false}
+  }
+   return true
+ }
+  return false
+}
+```
