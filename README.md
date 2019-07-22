@@ -711,3 +711,16 @@ function arraysSimilar(arr1, arr2) {
   return false
 }
 ```
+* Remove duplicate words
+```javascript
+function removeDuplicateWords (s){
+  let arr = s.split(' ');
+  let nArr = [];
+   for (i=0; i < arr.length; i++){
+    if (nArr.some(word => word === arr[i]) !== true) {
+      nArr.push(arr[i]);
+    }
+   }
+  return newStr = nArr.join(' ')
+}
+```
