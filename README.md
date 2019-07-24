@@ -737,3 +737,10 @@ function findMissing(arr1, arr2) {
   }
 }
 ```
+* Convert number to reversed array of digits
+```javascript
+function digitize(n) {
+ return res = String(n).split('').reverse().map(Number)
+}
+// Test.assertDeepEquals(digitize(35231),[1,3,2,5,3]);
+```
