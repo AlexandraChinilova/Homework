@@ -724,3 +724,16 @@ function removeDuplicateWords (s){
   return newStr = nArr.join(' ')
 }
 ```
+* Find the missing element between two arrays
+```javascript
+function findMissing(arr1, arr2) {
+ arr1.sort();
+   arr2.sort();
+ console.log(arr1, arr2);
+  for (i=0; i < arr1.length; i++){
+    if (arr1[i] !== arr2[i]){
+      return arr1[i]
+    }
+  }
+}
+```
