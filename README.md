@@ -772,3 +772,22 @@ function mergeArrays(arr1, arr2) {
   return Array.from(new Set(arr1.concat(arr2).sort((a,b) => (a-b))));
 }
 ```
+* Check the exam
+```javascript
+function checkExam(a1, a2) {
+ let res = 0;
+ for (i=0; i < a1.length; i++){
+   if (a2[i] === ''){
+        continue; }
+    if (a1[i] === a2[i]){
+      res +=4 ;
+    }
+     if (a1[i] !== a2[i]){
+       res -=1 ;
+     }
+ }
+  if (res < 0){
+     return res = 0};
+ return res
+}
+```
