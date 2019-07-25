@@ -744,3 +744,31 @@ function digitize(n) {
 }
 // Test.assertDeepEquals(digitize(35231),[1,3,2,5,3]);
 ```
+* Merge two sorted arrays into one
+```javascript
+function mergeArrays(arr1, arr2) {
+ for (i=0; i < arr2.length; i++){
+   arr1.push(arr2[i]);
+ }
+ for (t = 0; t < arr1.length-1; t++){
+  for (j=0; j < arr1.length-1; j++){
+     if (arr1[j] >= arr1[j+1]){
+      let n = arr1[j];
+      arr1[j] = arr1[j+1];
+      arr1[j+1] = n;
+     }
+   }
+  }
+  let nArr = [];
+  for (h=0; h < arr1.length; h++){
+   if (arr1[h] !== arr1[h+1]){
+    nArr.push(arr1[h]);
+  }}
+  return nArr
+}
+
+// another solution
+function mergeArrays(arr1, arr2) {
+  return Array.from(new Set(arr1.concat(arr2).sort((a,b) => (a-b))));
+}
+```
