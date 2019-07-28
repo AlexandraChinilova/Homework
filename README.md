@@ -791,3 +791,19 @@ function checkExam(a1, a2) {
  return res
 }
 ```
+* Convert string to camel case
+```javascript
+function toCamelCase(str){
+if (str == ''){
+ return str = ''}
+ if (str.match(/\-/) == '-'){
+  str = str.split('-')}
+  else {
+  if (str.match(/\_/) == '_') {
+   str = str.split('_')}}
+for (i=1; i < str.length; i++){
+   str[i] = str[i][0].toUpperCase() + str[i].substring(1)
+}   
+   return str = str.join('')
+}
+```
