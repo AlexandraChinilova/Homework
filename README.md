@@ -806,4 +806,25 @@ for (i=1; i < str.length; i++){
 }   
    return str = str.join('')
 }
+
+// find symbol in string
+```
+
+* Numerical Palindrome #1
+```javascript
+function palindrome(num) { 
+  let str = '';
+   if (typeof num !== 'number' || num < 0){
+     return 'Not valid'
+   }
+  str = num + '';
+  for (i=0; i < Math.floor(str.length/2); i++){
+    if (str[i] !== str[str.length - i - 1]){
+     return false;
+    }
+  }
+  return true
+} 
+// Метод Math.floor() возвращает целое число,
+// которое меньше или равно данному числу.
 ```
