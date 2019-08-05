@@ -827,4 +827,14 @@ function palindrome(num) {
 } 
 // Метод Math.floor() возвращает целое число,
 // которое меньше или равно данному числу.
+
+// with methods:
+function palindrome(num) { 
+   if (typeof num !== 'number' || num < 0){
+     return 'Not valid'
+   }
+  cost arr = +(num.toString().split('').reverse().join('')); 
+  
+     return num === arr;
+} 
 ```
