@@ -862,3 +862,14 @@ function countRedBeads(n) {
   return (n - 1) * 2 > 0 ? res = (n - 1) * 2 : 0
 }
 ```
+* Array plus array
+```javascript
+function arrayPlusArray(arr1, arr2) {
+let sum = 0;
+let arr = arr1.concat(arr2);
+ for (i = 0; i < arr.length; i++){
+  sum += arr[i] 
+ }
+  return sum
+}
+```
