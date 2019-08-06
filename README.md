@@ -873,3 +873,25 @@ let arr = arr1.concat(arr2);
   return sum
 }
 ```
+* Count Odd Numbers below n
+```javascript
+function oddCount(n){
+if (n % 2){
+  return count = (n - 1) / 2;}
+  return count = n / 2;
+}
+
+// с использованием метода
+function oddCount(n){
+  return count = Math.floor(n / 2);
+}
+
+// зависает при вычислении больших чисел
+function oddCount(n){
+  let count = 0;
+   for (let i = 1; i < n; i++){
+    if (i % 2) count++;
+   }
+  return count
+}
+```
