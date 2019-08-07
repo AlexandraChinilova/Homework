@@ -920,3 +920,32 @@ let sum = 0;
  return sum
 }
 ```
+* Who is going to pay for the wall?
+```javascript
+function whoIsPaying(name){
+ let arr = [name];
+  if ( name.length > 2){
+  arr.push(name.substring(0,2))
+  }
+  return arr
+}
+```
+* Reverse Vowels In A String
+```javascript
+function reverseVowels(str) {
+  let vowels = ['A','a','E','e','I','i','O','o','U','u'];
+  let arrV = [];
+  let word = str.split('');
+  for (i=0; i < word.length; i++){
+    if (vowels.some((item) => word[i] == item)){
+      arrV.push(word[i]);
+      word[i] = 'time';}
+  }
+  for (j=0; j < word.length; j++){
+      if (word[j] == 'time'){
+        word[j] = arrV.splice(-1,1)
+      }
+    }
+return word.join('')
+}
+```
