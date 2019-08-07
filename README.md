@@ -972,3 +972,15 @@ function checkThreeAndTwo(array) {
   return false
 }
 ```
+* Remove duplicates from list
+```javascript
+function distinct(a) {
+let res = [a[0]];
+for (let i = 1; i < a.length; i++){
+ if (res.some(item => item === a[i]) !== true){
+  res.push(a[i]);
+ }
+}
+  return res;
+}
+```
