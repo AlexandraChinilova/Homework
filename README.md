@@ -984,3 +984,9 @@ for (let i = 1; i < a.length; i++){
   return res;
 }
 ```
+* Even or Odd
+```javascript
+function even_or_odd(number) {
+ return number % 2 ? 'Odd' : 'Even'
+}
+```
