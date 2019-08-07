@@ -949,3 +949,26 @@ function reverseVowels(str) {
 return word.join('')
 }
 ```
+* Check three and two
+```javascript
+function checkThreeAndTwo(array) {
+  let a = 0;
+  let b = 0;
+  let c = 0;
+  for (let i = 0; i < array.length; i++){
+   if (array[i] == 'a'){
+    a++
+   }
+   if (array[i] == 'b'){
+    b++
+   }
+   if (array[i] == 'c'){
+    c++
+   }
+  }
+  if (a == 3 && b == 2 || a == 3 && c == 2 || a == 2 && b == 3 || a == 2 && c == 3 || b == 3 && c == 2 || c == 3 && b == 2){
+   return true
+  }
+  return false
+}
+```
