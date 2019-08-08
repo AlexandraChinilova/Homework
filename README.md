@@ -1029,3 +1029,13 @@ function smallestDiff(arr1, arr2) {
     return Math.min(...res)
 }
 ```
+* Lario and Muigi Pipe Problem
+```javascript
+function pipeFix(numbers){
+ let res = [];
+ for (let i = numbers[0]; i <= numbers[numbers.length-1]; i++){
+   res.push(i)
+ }
+ return res
+}
+```
