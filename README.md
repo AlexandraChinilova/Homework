@@ -1039,3 +1039,26 @@ function pipeFix(numbers){
  return res
 }
 ```
+* Mexican Wave
+```javascript
+function wave(w){
+let res = [];
+  if (w == '') {
+    return res
+  }
+  let word = w.split('')
+  let i = 0;
+  while (i < w.length){
+    if (word[i] == ' '){
+      i++;}
+    else {
+  word.splice(i,1, word[i].toUpperCase());
+  let slovo = word.join('');
+  res.push(slovo);
+  i++;
+   word = w.split('');
+   }
+}
+  return res
+}
+```
