@@ -1062,3 +1062,19 @@ let res = [];
   return res
 }
 ```
+* Print a Rectangle Using Asterisks
+```javascript
+function getRectangleString(width, height) {
+let znak = '*';
+let res = '';
+ for (let i = 1; i <= height; i++){
+   if (i == 1 || i == height){
+    res += `${znak.repeat(width)}\r\n`;
+  }
+  else {
+  res += `${znak}${' '.repeat(width-2)}${znak}\r\n`;
+  } 
+  }
+  return res
+}
+```
