@@ -990,3 +990,42 @@ function even_or_odd(number) {
  return number % 2 ? 'Odd' : 'Even'
 }
 ```
+* Smallest Difference
+```javascript
+function smallestDiff(arr1, arr2) {
+  if (arr1.length == 0 && arr2.length == 0){
+    return -1
+  }
+  
+  if (arr1.length == 0){
+    return Math.min(...arr2)
+  }
+  if (arr2.length == 0){
+      return Math.min(...arr1)
+  }
+  
+  if (arr1.some(item1 => item1 < 0)){
+    let min1 = Math.max(...arr1);
+    let min2 = Math.min(...arr2);
+    return Math.abs(min1 - min2);
+  }
+  if (arr2.some(item2 => item2 < 0)){
+    let min1 = Math.min(...arr1);
+    let min2 = Math.max(...arr2);
+    return Math.abs(min1 - min2);
+  }
+  
+  if (arr1.some(item1 => item1 < 0) && arr2.some(item2 => item2 < 0)){
+    let min1 = Math.max(...arr1);
+    let min2 = Math.max(...arr2);
+    return Math.abs(min1 - min2);
+  }
+  let res = [];
+   for (let i = 0; i < arr1.length; i++){
+    for (let j =0; j < arr2.length; j++){
+      res.push(Math.abs(arr1[i]-arr2[j]))
+      }
+    }
+    return Math.min(...res)
+}
+```
