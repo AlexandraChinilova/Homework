@@ -1078,3 +1078,91 @@ let res = '';
   return res
 }
 ```
+* String average
+```javascript
+function averageString(str) {
+  if (str === ''){
+  return 'n/a'
+  }
+  let sum = 0;
+  let per = 0;
+  let res = 0;
+  let arr = str.split(' ');
+  for (let i = 0; i < arr.length; i++){
+   switch (arr[i]){
+     case 'zero' : per = 0;
+       break;
+     case 'one' : per = 1;
+       break;
+     case 'two' : per = 2;
+       break;
+     case 'three' : per = 3;
+       break;
+     case 'four' : per = 4;
+       break;
+     case 'five' : per = 5;
+       break;
+     case 'six' : per = 6;
+       break;
+     case 'seven' : per = 7;
+       break;
+     case 'eight' : per = 8;
+       break;
+     case 'nine' : per = 9;
+       break;
+     default : return 'n/a'
+   }
+    sum += per;
+  }
+  sum = Math.trunc(sum/arr.length);
+   switch (sum){
+     case 0 : res = 'zero';
+       break;
+     case 1 : res = 'one';
+       break;
+     case 2 : res = 'two';
+       break;
+     case 3 : res = 'three';
+       break;
+     case 4 : res = 'four';
+       break;
+     case 5 : res = 'five';
+       break;
+     case 6 : res = 'six';
+       break;
+     case 7 : res = 'seven';
+       break;
+     case 8 : res = 'eight';
+       break;
+     case 9 : res = 'nine';
+       break;
+   }
+  return res
+}
+
+// another solution with object:
+function averageString(str) {
+  var numObj = {
+    'zero': 0,
+    'one': 1,
+    'two': 2,
+    'three': 3,
+    'four': 4,
+    'five': 5,
+    'six': 6,
+    'seven': 7,
+    'eight': 8,
+    'nine': 9
+  },
+  sum = 0;
+  str = str.split(' ');
+  for(var i = 0; i < str.length; i++) {
+    if(numObj[str[i]] === undefined) {
+      return 'n/a';
+    } else {
+      sum += numObj[str[i]];
+    }
+  }
+  return Object.keys(numObj)[Math.floor(sum/str.length)];
+}
+```
