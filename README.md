@@ -1166,3 +1166,17 @@ function averageString(str) {
   return Object.keys(numObj)[Math.floor(sum/str.length)];
 }
 ```
+* Random case
+```javascript
+function randomCase(x) {
+  let res = '';
+  for (let i=0; i<x.length; i++){
+   if (Math.round(Math.random()) > 0){
+    res += x[i].toUpperCase();
+   } else {
+    res += x[i].toLowerCase();
+   }
+  }
+  return res
+}
+```
