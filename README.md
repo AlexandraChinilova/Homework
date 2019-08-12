@@ -1180,3 +1180,57 @@ function randomCase(x) {
   return res
 }
 ```
+* Simple Simple Simple String Expansion
+```javascript
+function stringExpansion(s) {
+ if (s.match(/\d/g) == null){
+       return s;
+     }
+  let mn = 1;
+  let res = '';
+  
+  if (s[0].match(/\d/) !== null){
+    mn = s[0];
+   for (let i=0; i<s.length-1; i++){
+     if (s[i].match(/\D/) !== null && s[i+1].match(/\D/) !== null){
+      res += s[i+1].repeat(mn);
+     }
+      if (s[i].match(/\D/) !== null && s[i+1].match(/\d/) !== null || s[i].match(/\d/) !== null && s[i+1].match(/\d/) !== null){
+      mn = Number(s[i+1]);
+      }
+       if (s[i].match(/\d/) !== null && s[i+1].match(/\D/) !== null){
+      res += s[i+1].repeat(mn);
+       }
+    }
+  } else {
+    res = s[0];
+    for (let i=0; i<s.length-1; i++){
+     if (s[i].match(/\D/) !== null && s[i+1].match(/\D/) !== null){
+      res += s[i+1].repeat(mn);
+     }
+      if (s[i].match(/\D/) !== null && s[i+1].match(/\d/) !== null || s[i].match(/\d/) !== null && s[i+1].match(/\d/) !== null){
+      mn = Number(s[i+1]);
+      }
+       if (s[i].match(/\d/) !== null && s[i+1].match(/\D/) !== null){
+      res += s[i+1].repeat(mn);
+       }
+    }
+  }
+  return res;
+}
+
+//another solution with operator '+'
+function stringExpansion(s) {
+  let memor = 1;
+  let newS = "";
+  for (let i = 0; i <s.length; i++){
+    if(s[i] == +s[i]){ 
+      memor = +s[i];
+    }else{
+     newS += s[i].repeat(memor);
+    }
+  }
+  return newS;
+}
+// operator '+' vernet NaN if string  and  number if number!!!
+```
