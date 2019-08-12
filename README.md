@@ -1274,4 +1274,13 @@ function sortArray(array) {
   return res;
 }
 // something wrong with this kata...
+
+// another solution
+function sortArray(arr) {
+  if(arr.length === 0){
+   return [];
+  }
+   const odd = arr.filter(num => num % 2).sort((a, b) => a - b);
+   return arr.map(el => el % 2 ? odd.shift() : el);
+}
 ```
