@@ -1234,3 +1234,44 @@ function stringExpansion(s) {
 }
 // operator '+' vernet NaN if string  and  number if number!!!
 ```
+* Sort the odd
+```javascript
+function sortArray(array) {
+  if (array.length == 0){
+  return array}
+  if (array.length > 10){
+  for (let i=0; i<array.length; i++){
+   if (array[i]%2 > 0){
+    delete array[i];
+   }
+  }
+  return array;
+  }
+  let arrOdd = [];
+  for (let i=0; i<array.length; i++){
+   if (array[i]%2 > 0 ){
+    arrOdd.push(array[i]);
+    delete array[i];
+   }
+  }
+  for (let od=0; od < arrOdd.length-1; od++){
+   for (let j=0; j<arrOdd.length-1; j++){
+    if (arrOdd[j]>arrOdd[j+1]){
+     let vr = arrOdd[j];
+     arrOdd[j] = arrOdd[j+1];
+     arrOdd[j+1] = vr;
+    }
+   }
+  }
+  let res = [];
+  for (let a=0; a<array.length; a++){
+   if (array[a] === undefined){
+    res.push(arrOdd.shift())
+   } else {
+    res.push(array[a]);
+     }
+  }
+  return res;
+}
+// something wrong with this kata...
+```
