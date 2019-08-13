@@ -1284,3 +1284,25 @@ function sortArray(arr) {
    return arr.map(el => el % 2 ? odd.shift() : el);
 }
 ```
+* Create Four Letter Birding Codes from Bird Names
+```javascript
+function birdCode(arr){
+let newArr = [];
+for (let i=0; i< arr.length; i++){
+ let el = arr[i].replace(/-/g,' ').split(' ');
+  if (el.length == 1){
+    newArr.push(el[0].slice(0,4).toUpperCase());
+  }
+  if (el.length == 2){ 
+     newArr.push((el[0].slice(0,2) + el[1].slice(0,2)).toUpperCase())
+  }
+  if (el.length == 3){
+    newArr.push((el[0].slice(0,1) + el[1].slice(0,1) + el[2].slice(0,2)).toUpperCase())
+  }
+  if (el.length >= 4){
+    newArr.push((el[0].slice(0,1) + el[1].slice(0,1) + el[2].slice(0,1) + el[3].slice(0,1)).toUpperCase())
+  }
+}
+  return newArr
+}
+```
