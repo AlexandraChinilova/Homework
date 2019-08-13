@@ -1,0 +1,10 @@
+* A Needle in the Haystack
+```javascript
+function findNeedle(h) {
+  for (let i=0; i < h.length; i++){
+   if (h[i] === 'needle'){
+    return `found the needle at position ${i}`;
+   }
+  }
+}
+```
