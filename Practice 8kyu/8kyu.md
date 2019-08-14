@@ -29,3 +29,9 @@ let a = name.split(' ');
 //short solution
 //return name.split(' ').map(i => i[0].toUpperCase()).join('.')
 ```
+* Get the mean of an array
+```javascript
+function getAverage(marks){
+ return Math.floor((marks.reduce((sum, it) => sum + it))/marks.length)
+}
+```
