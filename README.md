@@ -1317,3 +1317,13 @@ function inAscOrder(arr) {
   return true
 }
 ```
+* Discover The Original Price
+```javascript
+function discoverOriginalPrice(dPr, sP){
+  return Math.floor((dPr * 100 / (100-sP))*100)/100;
+}
+//with Method toFixed()
+function discoverOriginalPrice(discountedPrice, salePercentage){
+  return +(discountedPrice / (1 - salePercentage / 100)).toFixed(2);
+}
+```
