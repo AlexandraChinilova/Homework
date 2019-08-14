@@ -35,3 +35,10 @@ function getAverage(marks){
  return Math.floor((marks.reduce((sum, it) => sum + it))/marks.length)
 }
 ```
+* How good are you really?
+```javascript
+function betterThanAverage(classPoints, yourPoints) {
+ let mPoint = (classPoints.reduce((sum,i) => sum+i))/classPoints.length;
+ return mPoint <= yourPoints ? true : false;
+}
+```
