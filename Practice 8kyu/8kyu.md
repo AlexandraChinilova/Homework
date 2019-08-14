@@ -19,3 +19,13 @@ function twoSort(s) {
   return res += s[0][s[0].length-1];
 }
 ```
+* Abbreviate a Two Word Name
+```javascript
+function abbrevName(name){
+let a = name.split(' ');
+ return res = (a[0][0] + '.' + a[1][0]).toUpperCase()
+}
+
+//short solution
+//return name.split(' ').map(i => i[0].toUpperCase()).join('.')
+```
