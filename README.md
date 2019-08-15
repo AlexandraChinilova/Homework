@@ -1338,3 +1338,25 @@ function whatTimeIsIt(angle){
   return `${h}:${m}`
 }
 ```
+* Sum of odd numbers
+```javascript
+function rowSumOddNumbers(n) {
+let startN = (n*(n+1))-n*2;
+let finishN = n*(n+1);
+let res = 0;
+	for(let i = startN; i < finishN; i++){
+   if (i % 2 !== 0){
+   res += i 
+   }
+  }
+  return res
+}
+// another solution
+function rowSumOddNumbers(n) {
+  return Math.pow(n, 3);
+}
+// or
+function rowSumOddNumbers(n) {
+  return n**3
+}
+```
