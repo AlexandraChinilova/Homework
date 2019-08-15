@@ -1327,3 +1327,14 @@ function discoverOriginalPrice(discountedPrice, salePercentage){
   return +(discountedPrice / (1 - salePercentage / 100)).toFixed(2);
 }
 ```
+* Clocky Mc Clock-Face
+```javascript
+function whatTimeIsIt(angle){
+  let m = Math.floor(angle*2 % 60);
+  let h = Math.floor((angle*2 - m)/60);
+    if (h <= 9){h = `0${h}`};
+    if (h <= 0) {h = '12'};
+    if (m <= 9){m = `0${m}`};
+  return `${h}:${m}`
+}
+```
