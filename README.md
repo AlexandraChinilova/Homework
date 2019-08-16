@@ -1360,3 +1360,19 @@ function rowSumOddNumbers(n) {
   return n**3
 }
 ```
+* Sum of Odd Cubed Numbers
+```javascript
+function cubeOdd(arr) {
+if (arr.some(item => typeof item !== 'number')){
+  return undefined
+}
+let res = 0;
+for (let i=0; i<arr.length; i++){
+ arr[i] = arr[i]**3
+ if (arr[i] % 2 !== 0){
+  res += arr[i]
+ }
+}
+return res
+}
+```
