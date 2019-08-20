@@ -48,3 +48,18 @@ function findDifference(a, b) {
   return Math.abs((a[0]*a[1]*a[2]) - (b[0]*b[1]*b[2]))
 }
 ```
+* Sum of Multiples
+```javascript
+function sumMul(n,m){
+if (n <= 0 || m <=0){
+ return 'INVALID';
+}
+let sum = 0;
+for (let i = n; i< m; i++){
+ if (i % n == 0){
+ sum += i
+ }
+}
+return sum
+}
+```
