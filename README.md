@@ -1376,3 +1376,22 @@ for (let i=0; i<arr.length; i++){
 return res
 }
 ```
+* Check three and two
+```javascript
+function checkThreeAndTwo(array) {
+let a = 0;
+let b = 0;
+let c = 0;
+  for (let i=0; i<array.length; i++){
+  switch (array[i]){
+   case 'a' : a++; break
+   case 'b' : b++; break
+   case 'c' : c++; break
+   }
+  }
+  if (a == 3 && b == 2 || a == 2 && b == 3 || a == 3 && c == 2 || a == 2 && c == 3 || b == 3 && c == 2 || b == 2 && c == 3){
+   return true
+  }
+  return false
+}
+```
