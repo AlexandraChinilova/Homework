@@ -1410,3 +1410,18 @@ let arr = [];
   return arr
 }
 ```
+* Number of People in the Bus
+```javascript
+function number(p){
+let res = 0;
+  for (let st = 0; st < p.length; st++){
+   res += p[st][0] - p[st][1];
+  }
+ return res;
+ }
+ 
+ // short solution with Methods:
+ function number(p){
+ return res = p.map(item => item[0]-item[1]).reduce((a,b) => a+b);
+  }
+```
