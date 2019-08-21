@@ -63,3 +63,15 @@ for (let i = n; i< m; i++){
 return sum
 }
 ```
+* Grasshopper - Summation
+```javascript
+function summation(num){
+  let i = 1;
+  let res = 0;
+  while (i <= num){
+   res +=i;
+   i++;
+  }
+  return res
+}
+```
