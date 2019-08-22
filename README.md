@@ -1425,3 +1425,56 @@ let res = 0;
  return res = p.map(item => item[0]-item[1]).reduce((a,b) => a+b);
   }
 ```
+* Difference Of Squares
+```javascript
+function differenceOfSquares(n){
+  let i=1;
+  let sqSum = (n*(n+1)/2)**2;
+  let sumSq = 0;
+  while (i <= n){
+   sumSq += i**2
+   i++
+  }
+  return sqSum - sumSq
+}
+```
+* Bingo Card
+```javascript
+function getCard() {
+ let arr = [];
+  let newEl = '';
+   for (let i = 0; i < 24; i++){
+     if (i < 5){
+      do {
+       newEl = 'B' + (Math.floor(Math.random()*14)+1)
+      } while (arr.some(el => newEl == el))
+       arr.push(newEl)
+     }
+      if (i >=5 && i < 10){
+       do {
+        newEl = 'I' + (Math.floor(Math.random()*14)+16)
+       } while (arr.some(el => newEl == el))
+        arr.push(newEl)
+      }
+       if (i >=10 && i < 14){
+        do {
+         newEl = 'N' + (Math.floor(Math.random()*14)+31)
+        } while (arr.some(el => newEl == el))
+         arr.push(newEl)
+       }
+        if (i >=14 && i < 19){
+         do {
+          newEl = 'G' + (Math.floor(Math.random()*14)+46)
+         } while (arr.some(el => newEl == el))
+          arr.push(newEl)
+        }
+         if (i >=19){
+          do {
+           newEl = 'O' + (Math.floor(Math.random()*14)+61)
+          } while (arr.some(el => newEl == el))
+           arr.push(newEl)
+         }
+   }
+   return arr
+}
+```
