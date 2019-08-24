@@ -1478,3 +1478,31 @@ function getCard() {
    return arr
 }
 ```
+* The Supermarket Queue
+```javascript
+function queueTime(custom, kas) {
+ if (custom.length == 0){
+  return 0
+ }
+ if (kas == 1){
+  return custom.reduce((a,b) => a+b) 
+ }
+ if (custom.length <= kas){
+  return Math.max(...custom)
+ }
+ 
+ const firstLine = custom.splice(0, kas);
+ const time = firstLine.slice();
+  
+ for (let i=0; i < custom.length; i++){
+   let minT = Math.min(...firstLine);
+   let numKass = firstLine.indexOf(minT);
+    for (let f=0; f < firstLine.length; f++){
+      firstLine[f] -= minT;
+    }
+   firstLine[numKass] = custom[i];
+   time[numKass] += custom[i];
+ }  
+  return Math.max(...time)
+}
+```
