@@ -75,3 +75,26 @@ function summation(num){
   return res
 }
 ```
+* Count of positives / sum of negatives
+```javascript
+function countPositivesSumNegatives(input) {
+if (input == null || input.length == 0){
+return []
+}
+let count = 0;
+let res = [0, 0];
+for (let i=0; i<input.length; i++){
+ if (input[i] > 0){
+  count++
+ }
+ if (input[i] < 0){
+   res[1] += input[i]
+   }
+}
+res[0] = count;
+if (res[0] == 0 && res[1] == 0){
+ return [];
+}
+    return res;
+}
+```
