@@ -1506,3 +1506,28 @@ function queueTime(custom, kas) {
   return Math.max(...time)
 }
 ```
+* Simple Fun #352: Reagent Formula
+```javascript
+function isValid(f){
+if ((f.some(el7 => el7 === 7)) || (f.some(el8 => el8 === 8))){
+   if ((f.some(el1 => el1 === 1)) && (f.some(el2 => el2 === 2)) || (f.some(el3 => el3 === 3)) && (f.some(el4 => el4 === 4))){
+   return false
+   }
+   if ((f.some(el5 => el5 === 5)) && (f.every(el6 => el6 !== 6)) || (f.every(el5 => el5 !== 5)) && (f.some(el6 => el6 === 6))){
+   return false
+   }
+return true
+}
+return false
+}
+
+// with Method includes()
+function isValid(f) {
+    return (
+        !(f.includes(1) && f.includes(2)) &&
+        !(f.includes(3) && f.includes(4)) &&
+        (f.includes(5) === f.includes(6)) &&
+        (f.includes(7) || f.includes(8))
+    )
+}
+```
