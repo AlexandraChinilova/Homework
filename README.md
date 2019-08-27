@@ -1531,3 +1531,15 @@ function isValid(f) {
     )
 }
 ```
+* Bumps in the Road
+```javascript
+function bump(x){
+let bumps = 0;
+for (let i=0; i< x.length; i++){
+ if (x[i].match(/n/)) {
+  bumps++;
+ }
+}
+return bumps <= 15 ? 'Woohoo!' : 'Car Dead'
+}
+```
