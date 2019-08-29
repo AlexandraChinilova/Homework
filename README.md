@@ -1543,3 +1543,38 @@ for (let i=0; i< x.length; i++){
 return bumps <= 15 ? 'Woohoo!' : 'Car Dead'
 }
 ```
+* Sum ALL the arrays!
+```javascript
+// мое решение, не выполняется для глубоко вложенных массивов на Codewars
+
+function SumNuts(nuts){
+ let cup = 0;
+  for (let i=0; i<nuts.length; i++){
+    if (nuts[i].length == undefined){
+      cup +=nuts[i];
+    } else {
+      cup += SumNuts(nuts[i])
+    }
+  }
+  return cup
+}
+
+// другое мое решение
+
+function arraySum(arr){
+let sum = 0;
+let allNumb = arr.join().split(',');
+  for (let i=0; i<allNumb.length; i++){
+    if (isNaN(allNumb[i]) == false){
+    sum += +allNumb[i]
+    }
+  }
+  return sum
+}
+
+// хорошее решение с использованием isArray() и isNaN()
+
+function arraySum(arr) {
+  return arr.reduce((n, x) => n + (Array.isArray(x) ? arraySum(x) : isNaN(x) ? 0 : x), 0)
+}
+```
