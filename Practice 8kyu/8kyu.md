@@ -98,3 +98,9 @@ if (res[0] == 0 && res[1] == 0){
     return res;
 }
 ```
+* Invert values
+```javascript
+function invert(array) {
+ return array.map(el => el > 0 ? -el : Math.abs(el))
+}
+```
