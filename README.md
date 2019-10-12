@@ -1578,3 +1578,41 @@ function arraySum(arr) {
   return arr.reduce((n, x) => n + (Array.isArray(x) ? arraySum(x) : isNaN(x) ? 0 : x), 0)
 }
 ```
+* Where my anagrams at?
+```javascript
+function anagrams(word, words){
+let res = [];
+  
+ function countLetters(x){
+   let objW = {};
+ for (w=0; w < x.length; w++){ 
+  if(objW[x[w]] == undefined){
+    objW[x[w]] = 1
+  } else {
+    objW[x[w]]++
+  }
+ }
+  return objW;
+ }
+
+let lWord = countLetters(word);
+
+  for (let arr = 0; arr < words.length; arr++){
+  if (String(Object.keys(lWord).sort()) === String(Object.keys(countLetters(words[arr])).sort())){
+    let count = false;
+    for (let key in lWord){
+        if (lWord[key] === countLetters(words[arr])[key]){
+         count = true
+        } else {
+          count = false;
+          break;
+        }
+    }
+   if (count === true) {
+     res.push(words[arr])
+   }
+  }
+}  
+  return res
+}
+```
