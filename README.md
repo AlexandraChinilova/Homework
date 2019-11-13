@@ -1616,3 +1616,35 @@ let lWord = countLetters(word);
   return res
 }
 ```
+* Find The Parity Outlier
+```javascript
+function findOutlier(int){
+let a = Math.abs(int[0]%2);
+ let b = Math.abs(int[1]%2);
+  let c = Math.abs(int[2]%2);
+if (a === 0 & a === b || a !== b & a === c & a === 0 || a !== b & b === c & b === 0){
+ for (let o=0; o < int.length; o++){
+   if (int[o]%2 !== 0){
+     return int[o];
+   }
+ } 
+}
+  
+if (a === 1 & a === b || a !== b & a === c & a === 1 || a !== b & b === c & b === 1){
+  for (let e=0; e < int.length; e++){
+   if (int[e]%2 === 0){
+     return int[e];
+   }
+ }
+}
+}
+```
+* Nothing happened
+```javascript
+
+function Proba{
+   a =1;
+   c = '----------------------'
+   b =2; 
+}
+```

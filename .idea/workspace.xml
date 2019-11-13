@@ -1,0 +1,590 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="babf462f-f806-4eaf-9cac-9c603d42a429" name="Default Changelist" comment="" />
+    <ignored path="$PROJECT_DIR$/out/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DefaultGradleProjectSettings">
+    <option name="isMigrated" value="true" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/README.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="518">
+                <caret line="1616" column="1" selection-start-line="1616" selection-start-column="1" selection-end-line="1616" selection-end-column="1" />
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Practice 8kyu/8kyu.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="518">
+                <caret line="104" column="1" selection-start-line="104" selection-start-column="1" selection-end-line="104" selection-end-column="1" />
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="chinilova/NewBranch-Proba" />
+      </map>
+    </option>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/Practice 8kyu/8kyu" />
+        <option value="$PROJECT_DIR$/Practice 8kyu/8kyu.md" />
+        <option value="$PROJECT_DIR$/README.md" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="61" />
+    <option name="y" value="23" />
+    <option name="width" value="1219" />
+    <option name="height" value="765" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="Homework" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Homework" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Homework" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Homework" type="462c0819:PsiDirectoryNode" />
+              <item name="Practice 8kyu" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="settings.editor.selected.configurable" value="preferences.fileTypes" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="babf462f-f806-4eaf-9cac-9c603d42a429" name="Default Changelist" comment="" />
+      <created>1561494128982</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1561494128982</updated>
+    </task>
+    <task id="LOCAL-00046" summary="added a new task: Array - Methods: REVERSE, MAP, NUMBER">
+      <created>1563942554580</created>
+      <option name="number" value="00046" />
+      <option name="presentableId" value="LOCAL-00046" />
+      <option name="project" value="LOCAL" />
+      <updated>1563942554580</updated>
+    </task>
+    <task id="LOCAL-00047" summary="added a new task: Array - Methods: CONCAT">
+      <created>1564070842501</created>
+      <option name="number" value="00047" />
+      <option name="presentableId" value="LOCAL-00047" />
+      <option name="project" value="LOCAL" />
+      <updated>1564070842501</updated>
+    </task>
+    <task id="LOCAL-00048" summary="added a new task: Array">
+      <created>1564080898613</created>
+      <option name="number" value="00048" />
+      <option name="presentableId" value="LOCAL-00048" />
+      <option name="project" value="LOCAL" />
+      <updated>1564080898613</updated>
+    </task>
+    <task id="LOCAL-00049" summary="added a new task: Method Math.floor">
+      <created>1565021337225</created>
+      <option name="number" value="00049" />
+      <option name="presentableId" value="LOCAL-00049" />
+      <option name="project" value="LOCAL" />
+      <updated>1565021337225</updated>
+    </task>
+    <task id="LOCAL-00050" summary="added the same task: solution with Methods">
+      <created>1565036799361</created>
+      <option name="number" value="00050" />
+      <option name="presentableId" value="LOCAL-00050" />
+      <option name="project" value="LOCAL" />
+      <updated>1565036799362</updated>
+    </task>
+    <task id="LOCAL-00051" summary="added a new task">
+      <created>1565037577613</created>
+      <option name="number" value="00051" />
+      <option name="presentableId" value="LOCAL-00051" />
+      <option name="project" value="LOCAL" />
+      <updated>1565037577613</updated>
+    </task>
+    <task id="LOCAL-00052" summary="added a new task">
+      <created>1565038376298</created>
+      <option name="number" value="00052" />
+      <option name="presentableId" value="LOCAL-00052" />
+      <option name="project" value="LOCAL" />
+      <updated>1565038376298</updated>
+    </task>
+    <task id="LOCAL-00053" summary="added a new task: Method Concat for Array">
+      <created>1565107144549</created>
+      <option name="number" value="00053" />
+      <option name="presentableId" value="LOCAL-00053" />
+      <option name="project" value="LOCAL" />
+      <updated>1565107144550</updated>
+    </task>
+    <task id="LOCAL-00054" summary="added a new task: Method Math.floor">
+      <created>1565108055489</created>
+      <option name="number" value="00054" />
+      <option name="presentableId" value="LOCAL-00054" />
+      <option name="project" value="LOCAL" />
+      <updated>1565108055490</updated>
+    </task>
+    <task id="LOCAL-00055" summary="added a new task">
+      <created>1565110663920</created>
+      <option name="number" value="00055" />
+      <option name="presentableId" value="LOCAL-00055" />
+      <option name="project" value="LOCAL" />
+      <updated>1565110663920</updated>
+    </task>
+    <task id="LOCAL-00056" summary="added a new task: Method Number">
+      <created>1565111303858</created>
+      <option name="number" value="00056" />
+      <option name="presentableId" value="LOCAL-00056" />
+      <option name="project" value="LOCAL" />
+      <updated>1565111303858</updated>
+    </task>
+    <task id="LOCAL-00057" summary="added a few tasks">
+      <created>1565150310906</created>
+      <option name="number" value="00057" />
+      <option name="presentableId" value="LOCAL-00057" />
+      <option name="project" value="LOCAL" />
+      <updated>1565150310906</updated>
+    </task>
+    <task id="LOCAL-00058" summary="added a new task">
+      <created>1565154432100</created>
+      <option name="number" value="00058" />
+      <option name="presentableId" value="LOCAL-00058" />
+      <option name="project" value="LOCAL" />
+      <updated>1565154432100</updated>
+    </task>
+    <task id="LOCAL-00059" summary="added a new task">
+      <created>1565211162492</created>
+      <option name="number" value="00059" />
+      <option name="presentableId" value="LOCAL-00059" />
+      <option name="project" value="LOCAL" />
+      <updated>1565211162495</updated>
+    </task>
+    <task id="LOCAL-00060" summary="added a new task">
+      <created>1565212718355</created>
+      <option name="number" value="00060" />
+      <option name="presentableId" value="LOCAL-00060" />
+      <option name="project" value="LOCAL" />
+      <updated>1565212718355</updated>
+    </task>
+    <task id="LOCAL-00061" summary="added a new task: Method Math.abs()">
+      <created>1565240730477</created>
+      <option name="number" value="00061" />
+      <option name="presentableId" value="LOCAL-00061" />
+      <option name="project" value="LOCAL" />
+      <updated>1565240730478</updated>
+    </task>
+    <task id="LOCAL-00062" summary="added a new task">
+      <created>1565243208504</created>
+      <option name="number" value="00062" />
+      <option name="presentableId" value="LOCAL-00062" />
+      <option name="project" value="LOCAL" />
+      <updated>1565243208504</updated>
+    </task>
+    <task id="LOCAL-00063" summary="added a new task">
+      <created>1565247104362</created>
+      <option name="number" value="00063" />
+      <option name="presentableId" value="LOCAL-00063" />
+      <option name="project" value="LOCAL" />
+      <updated>1565247104362</updated>
+    </task>
+    <task id="LOCAL-00064" summary="added a new task: Template literals (${})">
+      <created>1565304907086</created>
+      <option name="number" value="00064" />
+      <option name="presentableId" value="LOCAL-00064" />
+      <option name="project" value="LOCAL" />
+      <updated>1565304907087</updated>
+    </task>
+    <task id="LOCAL-00065" summary="added a new task: Method Math.trunc() - for integer&#10;example with object">
+      <created>1565328091979</created>
+      <option name="number" value="00065" />
+      <option name="presentableId" value="LOCAL-00065" />
+      <option name="project" value="LOCAL" />
+      <updated>1565328091979</updated>
+    </task>
+    <task id="LOCAL-00066" summary="added a new task: Method Math.random() - for random number (from 0 to 1); Math.round()">
+      <created>1565474441092</created>
+      <option name="number" value="00066" />
+      <option name="presentableId" value="LOCAL-00066" />
+      <option name="project" value="LOCAL" />
+      <updated>1565474441093</updated>
+    </task>
+    <task id="LOCAL-00067" summary="added new task: 6kyu: Unary operators">
+      <created>1565583480991</created>
+      <option name="number" value="00067" />
+      <option name="presentableId" value="LOCAL-00067" />
+      <option name="project" value="LOCAL" />
+      <updated>1565583480991</updated>
+    </task>
+    <task id="LOCAL-00068" summary="added new task: 6kyu">
+      <created>1565592677887</created>
+      <option name="number" value="00068" />
+      <option name="presentableId" value="LOCAL-00068" />
+      <option name="project" value="LOCAL" />
+      <updated>1565592677887</updated>
+    </task>
+    <task id="LOCAL-00069" summary="added another solution to previous task: 6kyu">
+      <created>1565592910614</created>
+      <option name="number" value="00069" />
+      <option name="presentableId" value="LOCAL-00069" />
+      <option name="project" value="LOCAL" />
+      <updated>1565592910615</updated>
+    </task>
+    <task id="LOCAL-00070" summary="added a new task: 6kyu: Array">
+      <created>1565672775303</created>
+      <option name="number" value="00070" />
+      <option name="presentableId" value="LOCAL-00070" />
+      <option name="project" value="LOCAL" />
+      <updated>1565672775303</updated>
+    </task>
+    <task id="LOCAL-00071" summary="added a new task: Array (practice)">
+      <created>1565736712286</created>
+      <option name="number" value="00071" />
+      <option name="presentableId" value="LOCAL-00071" />
+      <option name="project" value="LOCAL" />
+      <updated>1565736712286</updated>
+    </task>
+    <task id="LOCAL-00072" summary="added a new task: Array (practice)">
+      <created>1565752386697</created>
+      <option name="number" value="00072" />
+      <option name="presentableId" value="LOCAL-00072" />
+      <option name="project" value="LOCAL" />
+      <updated>1565752386698</updated>
+    </task>
+    <task id="LOCAL-00073" summary="added a new task: Array">
+      <created>1565753091451</created>
+      <option name="number" value="00073" />
+      <option name="presentableId" value="LOCAL-00073" />
+      <option name="project" value="LOCAL" />
+      <updated>1565753091451</updated>
+    </task>
+    <task id="LOCAL-00074" summary="added a new task: practice String">
+      <created>1565754623865</created>
+      <option name="number" value="00074" />
+      <option name="presentableId" value="LOCAL-00074" />
+      <option name="project" value="LOCAL" />
+      <updated>1565754623865</updated>
+    </task>
+    <task id="LOCAL-00075" summary="added a new task: practice Array">
+      <created>1565754657410</created>
+      <option name="number" value="00075" />
+      <option name="presentableId" value="LOCAL-00075" />
+      <option name="project" value="LOCAL" />
+      <updated>1565754657411</updated>
+    </task>
+    <task id="LOCAL-00076" summary="added a new task: practice Array (Method reduce)">
+      <created>1565763958091</created>
+      <option name="number" value="00076" />
+      <option name="presentableId" value="LOCAL-00076" />
+      <option name="project" value="LOCAL" />
+      <updated>1565763958091</updated>
+    </task>
+    <task id="LOCAL-00077" summary="added a new task: Method toFixed()">
+      <created>1565764989556</created>
+      <option name="number" value="00077" />
+      <option name="presentableId" value="LOCAL-00077" />
+      <option name="project" value="LOCAL" />
+      <updated>1565764989556</updated>
+    </task>
+    <task id="LOCAL-00078" summary="added a new task: Method Math.floor()">
+      <created>1565848093457</created>
+      <option name="number" value="00078" />
+      <option name="presentableId" value="LOCAL-00078" />
+      <option name="project" value="LOCAL" />
+      <updated>1565848093457</updated>
+    </task>
+    <task id="LOCAL-00079" summary="added a new task: Method Math.pow(n - number, x - exponent) //возводим в степень">
+      <created>1565908104948</created>
+      <option name="number" value="00079" />
+      <option name="presentableId" value="LOCAL-00079" />
+      <option name="project" value="LOCAL" />
+      <updated>1565908104948</updated>
+    </task>
+    <task id="LOCAL-00080" summary="added a new task">
+      <created>1565926287882</created>
+      <option name="number" value="00080" />
+      <option name="presentableId" value="LOCAL-00080" />
+      <option name="project" value="LOCAL" />
+      <updated>1565926287882</updated>
+    </task>
+    <task id="LOCAL-00081" summary="added a new task: Method Math.abs() // преобразование отрицательного числа в положительное">
+      <created>1565926851148</created>
+      <option name="number" value="00081" />
+      <option name="presentableId" value="LOCAL-00081" />
+      <option name="project" value="LOCAL" />
+      <updated>1565926851148</updated>
+    </task>
+    <task id="LOCAL-00082" summary="added a new task">
+      <created>1566272973102</created>
+      <option name="number" value="00082" />
+      <option name="presentableId" value="LOCAL-00082" />
+      <option name="project" value="LOCAL" />
+      <updated>1566272973102</updated>
+    </task>
+    <task id="LOCAL-00083" summary="added a new task (practice)">
+      <created>1566275847442</created>
+      <option name="number" value="00083" />
+      <option name="presentableId" value="LOCAL-00083" />
+      <option name="project" value="LOCAL" />
+      <updated>1566275847442</updated>
+    </task>
+    <task id="LOCAL-00084" summary="added a new task: Cycles">
+      <created>1566365756879</created>
+      <option name="number" value="00084" />
+      <option name="presentableId" value="LOCAL-00084" />
+      <option name="project" value="LOCAL" />
+      <updated>1566365756879</updated>
+    </task>
+    <task id="LOCAL-00085" summary="added a new task: Methods map &amp; reduce">
+      <created>1566367433997</created>
+      <option name="number" value="00085" />
+      <option name="presentableId" value="LOCAL-00085" />
+      <option name="project" value="LOCAL" />
+      <updated>1566367433997</updated>
+    </task>
+    <task id="LOCAL-00086" summary="added a new task: cycle While (practice)">
+      <created>1566367702349</created>
+      <option name="number" value="00086" />
+      <option name="presentableId" value="LOCAL-00086" />
+      <option name="project" value="LOCAL" />
+      <updated>1566367702349</updated>
+    </task>
+    <task id="LOCAL-00087" summary="added a few tasks: cycles While, Do While">
+      <created>1566452990829</created>
+      <option name="number" value="00087" />
+      <option name="presentableId" value="LOCAL-00087" />
+      <option name="project" value="LOCAL" />
+      <updated>1566452990829</updated>
+    </task>
+    <task id="LOCAL-00088" summary="added a few tasks: Math.max(...array) - for max in array">
+      <created>1566607705892</created>
+      <option name="number" value="00088" />
+      <option name="presentableId" value="LOCAL-00088" />
+      <option name="project" value="LOCAL" />
+      <updated>1566607705892</updated>
+    </task>
+    <task id="LOCAL-00089" summary="added a few tasks: Method includes() - for search in array">
+      <created>1566887311631</created>
+      <option name="number" value="00089" />
+      <option name="presentableId" value="LOCAL-00089" />
+      <option name="project" value="LOCAL" />
+      <updated>1566887311632</updated>
+    </task>
+    <task id="LOCAL-00090" summary="added a new task: practice Method RegExp">
+      <created>1566887953807</created>
+      <option name="number" value="00090" />
+      <option name="presentableId" value="LOCAL-00090" />
+      <option name="project" value="LOCAL" />
+      <updated>1566887953808</updated>
+    </task>
+    <task id="LOCAL-00091" summary="added a new task: practice array">
+      <created>1566890554843</created>
+      <option name="number" value="00091" />
+      <option name="presentableId" value="LOCAL-00091" />
+      <option name="project" value="LOCAL" />
+      <updated>1566890554843</updated>
+    </task>
+    <task id="LOCAL-00092" summary="added a new task: practice array: Methods isArray() &amp; isNaN(), function in function">
+      <created>1567090858410</created>
+      <option name="number" value="00092" />
+      <option name="presentableId" value="LOCAL-00092" />
+      <option name="project" value="LOCAL" />
+      <updated>1567090858410</updated>
+    </task>
+    <task id="LOCAL-00093" summary="added a new task: practice Math.abs() - change to positive">
+      <created>1567140485732</created>
+      <option name="number" value="00093" />
+      <option name="presentableId" value="LOCAL-00093" />
+      <option name="project" value="LOCAL" />
+      <updated>1567140485732</updated>
+    </task>
+    <task id="LOCAL-00094" summary="added a new task: decision with Object: with use - for (key in Object)">
+      <created>1570854806570</created>
+      <option name="number" value="00094" />
+      <option name="presentableId" value="LOCAL-00094" />
+      <option name="project" value="LOCAL" />
+      <updated>1570854806571</updated>
+    </task>
+    <option name="localTasksCounter" value="95" />
+    <servers />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="61" y="23" width="1219" height="765" extended-state="0" />
+    <editor active="true" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.13169074" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Image Layers" order="2" />
+      <window_info id="Designer" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Capture Tool" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.32894737" />
+      <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
+      <window_info anchor="bottom" id="Version Control" order="9" weight="0.32838038" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.24957119" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Maven" order="4" />
+      <window_info anchor="right" id="Theme Preview" order="5" />
+      <window_info anchor="right" id="Capture Analysis" order="6" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+    </layout>
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="RECENTLY_FILTERED_USER_GROUPS">
+                <collection />
+              </option>
+              <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+                <collection />
+              </option>
+              <option name="COLUMN_ORDER">
+                <list>
+                  <option value="0" />
+                  <option value="1" />
+                  <option value="2" />
+                  <option value="3" />
+                </list>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="RECENT_FILTERS">
+      <map>
+        <entry key="Branch">
+          <value>
+            <list />
+          </value>
+        </entry>
+        <entry key="User">
+          <value>
+            <list />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="added new task: 6kyu" />
+    <MESSAGE value="added another solution to previous task: 6kyu" />
+    <MESSAGE value="added a new task: 6kyu: Array" />
+    <MESSAGE value="added a new task: Array (practice)" />
+    <MESSAGE value="added a new task: Array" />
+    <MESSAGE value="added a new task: practice String" />
+    <MESSAGE value="added a new task: practice Array" />
+    <MESSAGE value="added a new task: practice Array (Method reduce)" />
+    <MESSAGE value="added a new task: Method toFixed()" />
+    <MESSAGE value="added a new task: Method Math.floor()" />
+    <MESSAGE value="added a new task: Method Math.pow(n - number, x - exponent) //возводим в степень" />
+    <MESSAGE value="added a new task: Method Math.abs() // преобразование отрицательного числа в положительное" />
+    <MESSAGE value="added a new task" />
+    <MESSAGE value="added a new task (practice)" />
+    <MESSAGE value="added a new task: Cycles" />
+    <MESSAGE value="added a new task: Methods map &amp; reduce" />
+    <MESSAGE value="added a new task: cycle While (practice)" />
+    <MESSAGE value="added a few tasks: cycles While, Do While" />
+    <MESSAGE value="added a few tasks: Math.max(...array) - for max in array" />
+    <MESSAGE value="added a few tasks: Method includes() - for search in array" />
+    <MESSAGE value="added a new task: practice Method RegExp" />
+    <MESSAGE value="added a new task: practice array" />
+    <MESSAGE value="added a new task: practice array: Methods isArray() &amp; isNaN(), function in function" />
+    <MESSAGE value="added a new task: practice Math.abs() - change to positive" />
+    <MESSAGE value="added a new task: decision with Object: with use - for (key in Object)" />
+    <option name="LAST_COMMIT_MESSAGE" value="added a new task: decision with Object: with use - for (key in Object)" />
+  </component>
+  <component name="antWorkspaceConfiguration">
+    <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
+    <option name="FILTER_TARGETS" value="false" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/Practice 8kyu/8kyu.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="518">
+            <caret line="104" column="1" selection-start-line="104" selection-start-column="1" selection-end-line="104" selection-end-column="1" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="518">
+            <caret line="1616" column="1" selection-start-line="1616" selection-start-column="1" selection-end-line="1616" selection-end-column="1" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+      <provider editor-type-id="text-editor" />
+    </entry>
+  </component>
+</project>
