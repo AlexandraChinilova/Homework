@@ -1639,14 +1639,30 @@ if (a === 1 & a === b || a !== b & a === c & a === 1 || a !== b & b === c & b ==
 }
 }
 ```
-* Nothing happened
+* A Gift Well Spent
 ```javascript
+function buy(x, arr){
+console.log(x, arr);
 
-function Proba{
-   a =1;
-   c = '----------------------';
-   d = 'Data';
-   p = 'Correct';
-   b =2; 
-}
+if (arr.length === 0 || arr.length < 2 ||
+    arr.length === 2 && arr[0] + arr[1] < x){
+    return null};
+    
+let sum2tovar = 0;
+let rez = [];
+ for (i=0; i < arr.length-1; i++){
+  if (arr[i] <= x){
+   for (j=i+1; j < arr.length && rez.length == 0; j++){
+    sum2tovar = arr[i] + arr[j];
+    if (sum2tovar == x){
+     rez.push(i);
+     rez.push(j);
+     return rez;
+    }
+   }
+  }
+ }
+
+return null;
+};
 ```
