@@ -1666,3 +1666,19 @@ let rez = [];
 return null;
 };
 ```
+* Perimeter of squares in a rectangle
+```javascript
+function perimeter(n) {
+
+let sum = [0, 1];
+let square = 0
+let x = 1;
+  for (i=0; i < n; i++){
+   square = sum[i]+sum[i+1]
+   sum.push(square);
+   x = x + square;
+  }
+
+return (4 * x);
+}
+```
