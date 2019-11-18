@@ -110,3 +110,13 @@ function otherAngle(a, b) {
   return 180-(a+b);
 }
 ```
+* Generate range of integers
+```javascript
+function generateRange(min, max, step){
+let rez = [];
+ for (i = min; i <= max; i = i + step){
+  rez.push(i);
+ }
+return rez
+}
+```

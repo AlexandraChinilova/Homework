@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="babf462f-f806-4eaf-9cac-9c603d42a429" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Practice 8kyu/8kyu.md" beforeDir="false" afterPath="$PROJECT_DIR$/Practice 8kyu/8kyu.md" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -16,24 +17,24 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="583">
-                <caret line="1666" column="2" selection-start-line="1666" selection-start-column="2" selection-end-line="1666" selection-end-column="2" />
+              <first_editor relative-caret-position="536">
+                <caret line="1682" column="1" selection-start-line="1682" selection-start-column="1" selection-end-line="1682" selection-end-column="1" />
               </first_editor>
               <second_editor />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Practice 8kyu/8kyu.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="1560">
-                <caret line="104" column="1" selection-start-line="104" selection-start-column="1" selection-end-line="104" selection-end-column="1" />
+              <first_editor relative-caret-position="479">
+                <caret line="112" column="28" selection-start-line="112" selection-start-column="28" selection-end-line="112" selection-end-column="28" />
               </first_editor>
               <second_editor />
             </state>
@@ -54,8 +55,8 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/Practice 8kyu/8kyu" />
-        <option value="$PROJECT_DIR$/Practice 8kyu/8kyu.md" />
         <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/Practice 8kyu/8kyu.md" />
       </list>
     </option>
   </component>
@@ -117,13 +118,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1561494128982</updated>
-    </task>
-    <task id="LOCAL-00048" summary="added a new task: Array">
-      <created>1564080898613</created>
-      <option name="number" value="00048" />
-      <option name="presentableId" value="LOCAL-00048" />
-      <option name="project" value="LOCAL" />
-      <updated>1564080898613</updated>
     </task>
     <task id="LOCAL-00049" summary="added a new task: Method Math.floor">
       <created>1565021337225</created>
@@ -461,11 +455,18 @@
       <option name="project" value="LOCAL" />
       <updated>1573787193297</updated>
     </task>
-    <option name="localTasksCounter" value="97" />
+    <task id="LOCAL-00097" summary="add new task: formula Fibonacci">
+      <created>1573890945556</created>
+      <option name="number" value="00097" />
+      <option name="presentableId" value="LOCAL-00097" />
+      <option name="project" value="LOCAL" />
+      <updated>1573890945556</updated>
+    </task>
+    <option name="localTasksCounter" value="98" />
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="61" y="23" width="1219" height="765" extended-state="1" />
+    <frame x="61" y="23" width="1219" height="765" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.13125512" />
@@ -536,7 +537,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="added a new task: 6kyu: Array" />
     <MESSAGE value="added a new task: Array (practice)" />
     <MESSAGE value="added a new task: Array" />
     <MESSAGE value="added a new task: practice String" />
@@ -561,7 +561,8 @@
     <MESSAGE value="added a new task: decision with Object: with use - for (key in Object)" />
     <MESSAGE value="QA5 connection fixed" />
     <MESSAGE value="add new task: Loops" />
-    <option name="LAST_COMMIT_MESSAGE" value="add new task: Loops" />
+    <MESSAGE value="add new task: formula Fibonacci" />
+    <option name="LAST_COMMIT_MESSAGE" value="add new task: formula Fibonacci" />
   </component>
   <component name="antWorkspaceConfiguration">
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
@@ -572,8 +573,8 @@
       <provider editor-type-id="text-editor" />
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="583">
-            <caret line="1666" column="2" selection-start-line="1666" selection-start-column="2" selection-end-line="1666" selection-end-column="2" />
+          <first_editor relative-caret-position="536">
+            <caret line="1682" column="1" selection-start-line="1682" selection-start-column="1" selection-end-line="1682" selection-end-column="1" />
           </first_editor>
           <second_editor />
         </state>
@@ -582,8 +583,8 @@
     <entry file="file://$PROJECT_DIR$/Practice 8kyu/8kyu.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="1560">
-            <caret line="104" column="1" selection-start-line="104" selection-start-column="1" selection-end-line="104" selection-end-column="1" />
+          <first_editor relative-caret-position="479">
+            <caret line="112" column="28" selection-start-line="112" selection-start-column="28" selection-end-line="112" selection-end-column="28" />
           </first_editor>
           <second_editor />
         </state>
