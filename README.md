@@ -1682,3 +1682,23 @@ let x = 1;
 return (4 * x);
 }
 ```
+* Maximum Triplet Sum (Array Series #7)
+```javascript
+function maxTriSum(numbers){
+  let sum = Math.max(...numbers);
+  let maxN = Math.max(...numbers);
+   numbers.splice(numbers.indexOf(Math.max(...numbers)), 1);
+  for (let i = 0; i < 2;){
+    if (Math.max(...numbers) == maxN){
+      numbers.splice(numbers.indexOf(Math.max(...numbers)), 1);
+    } else {
+   sum += Math.max(...numbers);
+     maxN = Math.max(...numbers);
+   numbers.splice(numbers.indexOf(Math.max(...numbers)), 1);
+   i++
+    }
+  }
+  
+  return sum
+}
+```
