@@ -1702,3 +1702,34 @@ function maxTriSum(numbers){
   return sum
 }
 ```
+* Shift Left
+```javascript
+function shiftLeft(s, t){
+ let d = 0;
+   while (s != t) {
+     if (s.length === 0){
+       t = t.slice(1);
+       d++;
+     }
+     if (t.length === 0){
+      s = s.slice(1);
+      d++;
+     }
+     if (s.length == t.length){
+       s = s.slice(1);
+      d++;
+       t = t.slice(1);
+      d++;
+     }
+     if (s.length > t.length){
+      s = s.slice(1);
+      d++;
+     }
+    if (s.length < t.length){
+     t = t.slice(1);
+      d++;
+    }
+  }
+  return d
+}
+```
