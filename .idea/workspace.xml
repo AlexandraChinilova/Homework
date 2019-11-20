@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="babf462f-f806-4eaf-9cac-9c603d42a429" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -16,24 +17,24 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="536">
-                <caret line="1682" column="1" selection-start-line="1682" selection-start-column="1" selection-end-line="1682" selection-end-column="1" />
+              <first_editor relative-caret-position="584">
+                <caret line="1749" selection-start-line="1749" selection-end-line="1749" />
               </first_editor>
               <second_editor />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Practice 8kyu/8kyu.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="509">
-                <caret line="128" column="22" selection-start-line="128" selection-start-column="22" selection-end-line="128" selection-end-column="22" />
+              <first_editor relative-caret-position="554">
+                <caret line="156" selection-start-line="156" selection-end-line="156" />
               </first_editor>
               <second_editor />
             </state>
@@ -54,8 +55,8 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/Practice 8kyu/8kyu" />
-        <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/Practice 8kyu/8kyu.md" />
+        <option value="$PROJECT_DIR$/README.md" />
       </list>
     </option>
   </component>
@@ -117,27 +118,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1561494128982</updated>
-    </task>
-    <task id="LOCAL-00051" summary="added a new task">
-      <created>1565037577613</created>
-      <option name="number" value="00051" />
-      <option name="presentableId" value="LOCAL-00051" />
-      <option name="project" value="LOCAL" />
-      <updated>1565037577613</updated>
-    </task>
-    <task id="LOCAL-00052" summary="added a new task">
-      <created>1565038376298</created>
-      <option name="number" value="00052" />
-      <option name="presentableId" value="LOCAL-00052" />
-      <option name="project" value="LOCAL" />
-      <updated>1565038376298</updated>
-    </task>
-    <task id="LOCAL-00053" summary="added a new task: Method Concat for Array">
-      <created>1565107144549</created>
-      <option name="number" value="00053" />
-      <option name="presentableId" value="LOCAL-00053" />
-      <option name="project" value="LOCAL" />
-      <updated>1565107144550</updated>
     </task>
     <task id="LOCAL-00054" summary="added a new task: Method Math.floor">
       <created>1565108055489</created>
@@ -461,14 +441,35 @@
       <option name="project" value="LOCAL" />
       <updated>1574064300494</updated>
     </task>
-    <option name="localTasksCounter" value="100" />
+    <task id="LOCAL-00100" summary="add new task: MAX in Array">
+      <created>1574128824365</created>
+      <option name="number" value="00100" />
+      <option name="presentableId" value="LOCAL-00100" />
+      <option name="project" value="LOCAL" />
+      <updated>1574128824366</updated>
+    </task>
+    <task id="LOCAL-00101" summary="add new task: equals strings">
+      <created>1574134658108</created>
+      <option name="number" value="00101" />
+      <option name="presentableId" value="LOCAL-00101" />
+      <option name="project" value="LOCAL" />
+      <updated>1574134658108</updated>
+    </task>
+    <task id="LOCAL-00102" summary="add new task: strings with function;&#10;add new simple task: practice">
+      <created>1574226159964</created>
+      <option name="number" value="00102" />
+      <option name="presentableId" value="LOCAL-00102" />
+      <option name="project" value="LOCAL" />
+      <updated>1574226159964</updated>
+    </task>
+    <option name="localTasksCounter" value="103" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="61" y="23" width="1219" height="765" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.13125512" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.13043478" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -536,9 +537,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="added a new task: Array" />
-    <MESSAGE value="added a new task: practice String" />
-    <MESSAGE value="added a new task: practice Array" />
     <MESSAGE value="added a new task: practice Array (Method reduce)" />
     <MESSAGE value="added a new task: Method toFixed()" />
     <MESSAGE value="added a new task: Method Math.floor()" />
@@ -561,29 +559,32 @@
     <MESSAGE value="add new task: Loops" />
     <MESSAGE value="add new task: formula Fibonacci" />
     <MESSAGE value="add new task: practice 8kyu" />
-    <option name="LAST_COMMIT_MESSAGE" value="add new task: practice 8kyu" />
+    <MESSAGE value="add new task: MAX in Array" />
+    <MESSAGE value="add new task: equals strings" />
+    <MESSAGE value="add new task: strings with function;&#10;add new simple task: practice" />
+    <option name="LAST_COMMIT_MESSAGE" value="add new task: strings with function;&#10;add new simple task: practice" />
   </component>
   <component name="antWorkspaceConfiguration">
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider editor-type-id="text-editor" />
+    <entry file="file://$PROJECT_DIR$/Practice 8kyu/8kyu.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="536">
-            <caret line="1682" column="1" selection-start-line="1682" selection-start-column="1" selection-end-line="1682" selection-end-column="1" />
+          <first_editor relative-caret-position="554">
+            <caret line="156" selection-start-line="156" selection-end-line="156" />
           </first_editor>
           <second_editor />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Practice 8kyu/8kyu.md">
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider editor-type-id="text-editor" />
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="509">
-            <caret line="128" column="22" selection-start-line="128" selection-start-column="22" selection-end-line="128" selection-end-column="22" />
+          <first_editor relative-caret-position="584">
+            <caret line="1749" selection-start-line="1749" selection-end-line="1749" />
           </first_editor>
           <second_editor />
         </state>

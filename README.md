@@ -1745,3 +1745,44 @@ function number(array){
   return array
 }
 ```
+* Phone Directory
+```javascript
+function phone(strng, num) {
+
+let name = '';
+let address = '';
+let tel = strng.split('\n');
+let person = '';
+let countN = 0;
+  for (let z=0; z < tel.length; z++){
+   for (let i=0; i < tel[z].length; i++){
+    if (num == tel[z].substr(i, num.length)){
+      countN++;
+      person = tel[z];
+  name = person.match(/<(.*?)>/)[1]; // /<(.*?)>/ - выводит содержимое между < >.
+  person = person.replace(person.match(/<(.*?)>/)[0],'').replace(person.match(num),'').replace(/[,:;+?$/_*&#@!^%]/g, " ");
+  // /[:;}%$]/g - можно находить несколько символов сразу используя []
+   for (let i=0; i < person.length; i++){
+  if (person[i] != ' '){
+     address += person[i];
+  }
+  if (person[i] == ' ' && person[i+1] != ' '){
+    address += person[i];
+  }
+}
+        if (countN > 1){
+          return `Error => Too many people: ${num}`;
+        }
+    }
+   }
+  }
+  if (countN == 1){
+   address = address.replace(/ /, "");
+   if (address[address.length-1] == ' '){
+    address = address.slice(0, address.length-1);
+   }
+    return `Phone => ${num}, Name => ${name}, Address => ${address}`;
+  }
+  return `Error => Not found: ${num}`;
+}
+```
