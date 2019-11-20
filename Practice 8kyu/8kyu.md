@@ -135,3 +135,23 @@ function howMuchILoveYou(l) {
    
 }
 ```
+* Draw stairs
+```javascript
+function drawStairs(n) {
+ if (n == 1) {
+ return 'I'
+ } 
+
+  let i = 1;
+  let stair = '';
+  while (i < n){
+  stair += 'I\n';
+    for (let p = 0; p < i; p++){
+      stair += ' '
+    }
+    i++;
+  }
+  stair += 'I'
+  return stair
+}
+```

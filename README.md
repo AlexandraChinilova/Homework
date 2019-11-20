@@ -1733,3 +1733,15 @@ function shiftLeft(s, t){
   return d
 }
 ```
+
+* Testing 1-2-3
+```javascript
+function number(array){
+  
+  for (let i=0; i < array.length; i++){
+   array[i] = `${i+1}: ${array[i]}`
+  }
+  
+  return array
+}
+```
