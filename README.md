@@ -1825,3 +1825,12 @@ console.log(a,b)
    return sum
 }
 ```
+*Square(n) Sum
+```javascript
+function squareSum(numbers){
+if (numbers.length > 0){
+return numbers.map((a,i) => a**2).reduce((a,b) => a+b)
+}
+return 0
+}
+```
