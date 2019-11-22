@@ -1796,3 +1796,32 @@ const phone = (a, b) => {
   return `Phone => ${b}, Name => ${name}, Address => ${address.trim()}`
 }
 ```
+
+* GCD sum
+```javascript
+function solve(s,g1){
+let g2 = s - g1;
+  return g2 % g1 == 0 ? [g1, g2] : -1
+}
+```
+*Beginner Series #3 Sum of Numbers
+```javascript
+function getSum( a,b ){
+console.log(a,b)
+ if (a == b) {return a};
+  let sum;
+  let max;
+  if (a < b) {
+  sum = a;
+  max = b;
+  }
+  if (b < a) {
+  sum = b;
+  max = a;
+  }
+  for (let i = sum + 1; i <= max; i++){
+  sum += i;
+  }
+   return sum
+}
+```
