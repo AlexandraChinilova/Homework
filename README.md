@@ -1834,3 +1834,24 @@ return numbers.map((a,i) => a**2).reduce((a,b) => a+b)
 return 0
 }
 ```
+* Buying a car
+```javascript
+function nbMonths(cOld, cNew, save, pr){
+ if (cOld >= cNew){ return [0, cOld - cNew]}
+  let bank = 0;
+  let ost = 0;
+  let countM = 0;
+   for (let i=0; cOld + bank < cNew; i++){
+    bank += save;
+    cOld = cOld - (cOld * pr / 100);
+    cNew = cNew - (cNew * pr / 100);
+    ost = Math.round(cOld + bank - cNew);
+    countM++;
+    if (i%2 == 0){
+     pr += 0.5
+    }
+   }
+   
+   return [countM, ost]
+}
+```
