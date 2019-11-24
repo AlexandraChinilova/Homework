@@ -21,8 +21,8 @@
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="599">
-                <caret line="1838" selection-start-line="1838" selection-end-line="1838" />
+              <first_editor relative-caret-position="614">
+                <caret line="1860" selection-start-line="1860" selection-end-line="1860" />
               </first_editor>
               <second_editor />
             </state>
@@ -118,13 +118,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1561494128982</updated>
-    </task>
-    <task id="LOCAL-00058" summary="added a new task">
-      <created>1565154432100</created>
-      <option name="number" value="00058" />
-      <option name="presentableId" value="LOCAL-00058" />
-      <option name="project" value="LOCAL" />
-      <updated>1565154432100</updated>
     </task>
     <task id="LOCAL-00059" summary="added a new task">
       <created>1565211162492</created>
@@ -462,7 +455,14 @@
       <option name="project" value="LOCAL" />
       <updated>1574457402151</updated>
     </task>
-    <option name="localTasksCounter" value="107" />
+    <task id="LOCAL-00107" summary="add new task: Math.round">
+      <created>1574478742794</created>
+      <option name="number" value="00107" />
+      <option name="presentableId" value="LOCAL-00107" />
+      <option name="project" value="LOCAL" />
+      <updated>1574478742794</updated>
+    </task>
+    <option name="localTasksCounter" value="108" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -537,7 +537,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="added a new task: Method Math.abs() // преобразование отрицательного числа в положительное" />
     <MESSAGE value="added a new task" />
     <MESSAGE value="added a new task (practice)" />
     <MESSAGE value="added a new task: Cycles" />
@@ -562,7 +561,8 @@
     <MESSAGE value="add new task: String used RegExp!!! found part of string - comments" />
     <MESSAGE value="add new tasks" />
     <MESSAGE value="add new task: practice" />
-    <option name="LAST_COMMIT_MESSAGE" value="add new task: practice" />
+    <MESSAGE value="add new task: Math.round" />
+    <option name="LAST_COMMIT_MESSAGE" value="add new task: Math.round" />
   </component>
   <component name="antWorkspaceConfiguration">
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
@@ -583,8 +583,8 @@
       <provider editor-type-id="text-editor" />
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="599">
-            <caret line="1838" selection-start-line="1838" selection-end-line="1838" />
+          <first_editor relative-caret-position="614">
+            <caret line="1860" selection-start-line="1860" selection-end-line="1860" />
           </first_editor>
           <second_editor />
         </state>

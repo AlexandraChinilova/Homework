@@ -1855,3 +1855,19 @@ function nbMonths(cOld, cNew, save, pr){
    return [countM, ost]
 }
 ```
+* Simple Fun #74: Growing Plant
+```javacsript
+function growingPlant(upSpeed, downSpeed, H) {
+if (upSpeed > H) {return 1}
+  grH = 0;
+  countD = 0;
+  for (let i = 0; grH < H; i++){
+   grH += upSpeed;
+   if (grH < H){
+    grH -=downSpeed
+   }
+   countD++;
+  }
+  return countD
+}
+```
