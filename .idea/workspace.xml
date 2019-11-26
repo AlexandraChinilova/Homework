@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="babf462f-f806-4eaf-9cac-9c603d42a429" name="Default Changelist" comment="" />
+    <list default="true" id="babf462f-f806-4eaf-9cac-9c603d42a429" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Practice 8kyu/8kyu.md" beforeDir="false" afterPath="$PROJECT_DIR$/Practice 8kyu/8kyu.md" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -18,8 +21,20 @@
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="564">
-                <caret line="1871" column="1" selection-start-line="1871" selection-start-column="1" selection-end-line="1871" selection-end-column="1" />
+              <first_editor relative-caret-position="614">
+                <caret line="1885" column="1" selection-start-line="1885" selection-start-column="1" selection-end-line="1885" selection-end-column="1" />
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/4kyu.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="450">
+                <caret line="30" column="1" selection-start-line="30" selection-start-column="1" selection-end-line="30" selection-end-column="1" />
               </first_editor>
               <second_editor />
             </state>
@@ -27,21 +42,11 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/4kyu.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SPLIT">
-              <first_editor />
-              <second_editor />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Practice 8kyu/8kyu.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="539">
-                <caret line="166" column="1" selection-start-line="166" selection-start-column="1" selection-end-line="166" selection-end-column="1" />
+              <first_editor relative-caret-position="614">
+                <caret line="173" column="1" selection-start-line="173" selection-start-column="1" selection-end-line="173" selection-end-column="1" />
               </first_editor>
               <second_editor />
             </state>
@@ -62,8 +67,9 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/Practice 8kyu/8kyu" />
-        <option value="$PROJECT_DIR$/Practice 8kyu/8kyu.md" />
+        <option value="$PROJECT_DIR$/4kyu.md" />
         <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/Practice 8kyu/8kyu.md" />
       </list>
     </option>
   </component>
@@ -125,20 +131,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1561494128982</updated>
-    </task>
-    <task id="LOCAL-00060" summary="added a new task">
-      <created>1565212718355</created>
-      <option name="number" value="00060" />
-      <option name="presentableId" value="LOCAL-00060" />
-      <option name="project" value="LOCAL" />
-      <updated>1565212718355</updated>
-    </task>
-    <task id="LOCAL-00061" summary="added a new task: Method Math.abs()">
-      <created>1565240730477</created>
-      <option name="number" value="00061" />
-      <option name="presentableId" value="LOCAL-00061" />
-      <option name="project" value="LOCAL" />
-      <updated>1565240730478</updated>
     </task>
     <task id="LOCAL-00062" summary="added a new task">
       <created>1565243208504</created>
@@ -469,7 +461,21 @@
       <option name="project" value="LOCAL" />
       <updated>1574582471142</updated>
     </task>
-    <option name="localTasksCounter" value="109" />
+    <task id="LOCAL-00109" summary="add new task: Sum = array squares numbers">
+      <created>1574664296127</created>
+      <option name="number" value="00109" />
+      <option name="presentableId" value="LOCAL-00109" />
+      <option name="project" value="LOCAL" />
+      <updated>1574664296127</updated>
+    </task>
+    <task id="LOCAL-00110" summary="add new task: array">
+      <created>1574736356709</created>
+      <option name="number" value="00110" />
+      <option name="presentableId" value="LOCAL-00110" />
+      <option name="project" value="LOCAL" />
+      <updated>1574736356709</updated>
+    </task>
+    <option name="localTasksCounter" value="111" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -544,8 +550,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="added a new task (practice)" />
-    <MESSAGE value="added a new task: Cycles" />
     <MESSAGE value="added a new task: Methods map &amp; reduce" />
     <MESSAGE value="added a new task: cycle While (practice)" />
     <MESSAGE value="added a few tasks: cycles While, Do While" />
@@ -569,18 +573,20 @@
     <MESSAGE value="add new task: practice" />
     <MESSAGE value="add new task: Math.round" />
     <MESSAGE value="add new task: loops" />
-    <option name="LAST_COMMIT_MESSAGE" value="add new task: loops" />
+    <MESSAGE value="add new task: Sum = array squares numbers" />
+    <MESSAGE value="add new task: array" />
+    <option name="LAST_COMMIT_MESSAGE" value="add new task: array" />
   </component>
   <component name="antWorkspaceConfiguration">
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Practice 8kyu/8kyu.md">
+    <entry file="file://$PROJECT_DIR$/4kyu.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="539">
-            <caret line="166" column="1" selection-start-line="166" selection-start-column="1" selection-end-line="166" selection-end-column="1" />
+          <first_editor relative-caret-position="450">
+            <caret line="30" column="1" selection-start-line="30" selection-start-column="1" selection-end-line="30" selection-end-column="1" />
           </first_editor>
           <second_editor />
         </state>
@@ -590,17 +596,19 @@
       <provider editor-type-id="text-editor" />
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="564">
-            <caret line="1871" column="1" selection-start-line="1871" selection-start-column="1" selection-end-line="1871" selection-end-column="1" />
+          <first_editor relative-caret-position="614">
+            <caret line="1885" column="1" selection-start-line="1885" selection-start-column="1" selection-end-line="1885" selection-end-column="1" />
           </first_editor>
           <second_editor />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/4kyu.md">
+    <entry file="file://$PROJECT_DIR$/Practice 8kyu/8kyu.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor />
+          <first_editor relative-caret-position="614">
+            <caret line="173" column="1" selection-start-line="173" selection-start-column="1" selection-end-line="173" selection-end-column="1" />
+          </first_editor>
           <second_editor />
         </state>
       </provider>

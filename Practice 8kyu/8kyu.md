@@ -166,3 +166,10 @@ for (let i = 0; i < arr.length-1; i++){
  return sum
 }
 ```
+* Keep up the hoop
+```javascript
+function hoopCount (n) {
+  if (n >= 10){return 'Great, now move on to tricks'}
+  return 'Keep at it until you get it'
+}
+```
