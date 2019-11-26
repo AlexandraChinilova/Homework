@@ -1871,3 +1871,17 @@ if (upSpeed > H) {return 1}
   return countD
 }
 ```
+* Simple Fun #152: Invite More Women?
+```javascript
+function inviteMoreWomen(L) {
+let w = 0;
+let m = 0;
+  for (let i=0; i < L.length; i++){
+   if (L[i] > 0){
+   m++
+   } else {w++}
+  }
+  if (w < m){return true};
+  return false
+}
+```
