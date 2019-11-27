@@ -173,3 +173,17 @@ function hoopCount (n) {
   return 'Keep at it until you get it'
 }
 ```
+* Complementary DNA
+```javascript
+function DNAStrand(dna){
+  let res = '';
+   for (let i=0; i < dna.length; i++){
+    if (dna[i] === 'A') res += 'T';
+    if (dna[i] === 'T') res += 'A';
+    if (dna[i] === 'G') res += 'C';
+    if (dna[i] === 'C') res += 'G';
+   }
+  
+  return res
+}
+```
