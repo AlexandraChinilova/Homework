@@ -3,7 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="babf462f-f806-4eaf-9cac-9c603d42a429" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Practice 8kyu/8kyu.md" beforeDir="false" afterPath="$PROJECT_DIR$/Practice 8kyu/8kyu.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -17,12 +17,12 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="614">
-                <caret line="1885" column="1" selection-start-line="1885" selection-start-column="1" selection-end-line="1885" selection-end-column="1" />
+              <first_editor relative-caret-position="599">
+                <caret line="1889" selection-start-line="1889" selection-end-line="1889" />
               </first_editor>
               <second_editor />
             </state>
@@ -41,12 +41,12 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Practice 8kyu/8kyu.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="569">
-                <caret line="189" column="2" selection-start-line="189" selection-start-column="2" selection-end-line="189" selection-end-column="2" />
+              <first_editor relative-caret-position="614">
+                <caret line="226" column="1" selection-start-line="226" selection-start-column="1" selection-end-line="226" selection-end-column="1" />
               </first_editor>
               <second_editor />
             </state>
@@ -68,8 +68,8 @@
       <list>
         <option value="$PROJECT_DIR$/Practice 8kyu/8kyu" />
         <option value="$PROJECT_DIR$/4kyu.md" />
-        <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/Practice 8kyu/8kyu.md" />
+        <option value="$PROJECT_DIR$/README.md" />
       </list>
     </option>
   </component>
@@ -131,20 +131,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1561494128982</updated>
-    </task>
-    <task id="LOCAL-00064" summary="added a new task: Template literals (${})">
-      <created>1565304907086</created>
-      <option name="number" value="00064" />
-      <option name="presentableId" value="LOCAL-00064" />
-      <option name="project" value="LOCAL" />
-      <updated>1565304907087</updated>
-    </task>
-    <task id="LOCAL-00065" summary="added a new task: Method Math.trunc() - for integer&#10;example with object">
-      <created>1565328091979</created>
-      <option name="number" value="00065" />
-      <option name="presentableId" value="LOCAL-00065" />
-      <option name="project" value="LOCAL" />
-      <updated>1565328091979</updated>
     </task>
     <task id="LOCAL-00066" summary="added a new task: Method Math.random() - for random number (from 0 to 1); Math.round()">
       <created>1565474441092</created>
@@ -475,7 +461,21 @@
       <option name="project" value="LOCAL" />
       <updated>1574828304632</updated>
     </task>
-    <option name="localTasksCounter" value="113" />
+    <task id="LOCAL-00113" summary="add new task: practice">
+      <created>1575272521601</created>
+      <option name="number" value="00113" />
+      <option name="presentableId" value="LOCAL-00113" />
+      <option name="project" value="LOCAL" />
+      <updated>1575272521602</updated>
+    </task>
+    <task id="LOCAL-00114" summary="add new task: practice">
+      <created>1575276033746</created>
+      <option name="number" value="00114" />
+      <option name="presentableId" value="LOCAL-00114" />
+      <option name="project" value="LOCAL" />
+      <updated>1575276033746</updated>
+    </task>
+    <option name="localTasksCounter" value="115" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -592,22 +592,22 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider editor-type-id="text-editor" />
+    <entry file="file://$PROJECT_DIR$/Practice 8kyu/8kyu.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
           <first_editor relative-caret-position="614">
-            <caret line="1885" column="1" selection-start-line="1885" selection-start-column="1" selection-end-line="1885" selection-end-column="1" />
+            <caret line="226" column="1" selection-start-line="226" selection-start-column="1" selection-end-line="226" selection-end-column="1" />
           </first_editor>
           <second_editor />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Practice 8kyu/8kyu.md">
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider editor-type-id="text-editor" />
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="569">
-            <caret line="189" column="2" selection-start-line="189" selection-start-column="2" selection-end-line="189" selection-end-column="2" />
+          <first_editor relative-caret-position="599">
+            <caret line="1889" selection-start-line="1889" selection-end-line="1889" />
           </first_editor>
           <second_editor />
         </state>

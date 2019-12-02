@@ -1885,3 +1885,25 @@ let m = 0;
   return false
 }
 ```
+* Help the bookseller !
+```javascript
+function stockList(listOfArt, listOfCat){
+ if (listOfArt.length == 0 || listOfCat.length == 0){return ''}
+
+  let strRes = '';
+  let sum = 0;
+  for (let c = 0; c < listOfCat.length; c++){
+    for (let b = 0; b < listOfArt.length; b++){
+      if (listOfCat[c] == listOfArt[b][0]){
+        sum += +listOfArt[b].match(/\d/g).join('');
+      }
+    }
+    
+    if (c != listOfCat.length-1){
+      strRes += `(${listOfCat[c]} : ${sum}) - `;
+      sum = 0;
+    } else { strRes += `(${listOfCat[c]} : ${sum})`}
+  }
+  return strRes
+}
+```
