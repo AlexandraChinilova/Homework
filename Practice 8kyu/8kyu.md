@@ -187,3 +187,30 @@ function DNAStrand(dna){
   return res
 }
 ```
+* Keep Hydrated!
+```javascript
+function litres(time) {
+  return Math.floor(time * 0.5);
+}
+```
+* Counting sheep...
+```javascript
+function countSheeps(arrayOfSheep) {
+  let res = 0;
+   for (let i=0; i < arrayOfSheep.length; i++){
+     if (arrayOfSheep[i] == true){
+       res += 1;
+     }
+  }
+  return res
+}
+```
+* Grasshopper - Personalized Message
+```javascript
+function greet (name, owner) {
+ if (name == owner){
+  return 'Hello boss'
+ }
+ return 'Hello guest'
+}
+```

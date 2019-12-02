@@ -45,8 +45,8 @@
         <entry file="file://$PROJECT_DIR$/Practice 8kyu/8kyu.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="614">
-                <caret line="173" column="1" selection-start-line="173" selection-start-column="1" selection-end-line="173" selection-end-column="1" />
+              <first_editor relative-caret-position="569">
+                <caret line="189" column="2" selection-start-line="189" selection-start-column="2" selection-end-line="189" selection-end-column="2" />
               </first_editor>
               <second_editor />
             </state>
@@ -131,20 +131,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1561494128982</updated>
-    </task>
-    <task id="LOCAL-00062" summary="added a new task">
-      <created>1565243208504</created>
-      <option name="number" value="00062" />
-      <option name="presentableId" value="LOCAL-00062" />
-      <option name="project" value="LOCAL" />
-      <updated>1565243208504</updated>
-    </task>
-    <task id="LOCAL-00063" summary="added a new task">
-      <created>1565247104362</created>
-      <option name="number" value="00063" />
-      <option name="presentableId" value="LOCAL-00063" />
-      <option name="project" value="LOCAL" />
-      <updated>1565247104362</updated>
     </task>
     <task id="LOCAL-00064" summary="added a new task: Template literals (${})">
       <created>1565304907086</created>
@@ -475,7 +461,21 @@
       <option name="project" value="LOCAL" />
       <updated>1574736356709</updated>
     </task>
-    <option name="localTasksCounter" value="111" />
+    <task id="LOCAL-00111" summary="add new task: practice">
+      <created>1574746742645</created>
+      <option name="number" value="00111" />
+      <option name="presentableId" value="LOCAL-00111" />
+      <option name="project" value="LOCAL" />
+      <updated>1574746742645</updated>
+    </task>
+    <task id="LOCAL-00112" summary="add new task: practice">
+      <created>1574828304632</created>
+      <option name="number" value="00112" />
+      <option name="presentableId" value="LOCAL-00112" />
+      <option name="project" value="LOCAL" />
+      <updated>1574828304632</updated>
+    </task>
+    <option name="localTasksCounter" value="113" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -570,12 +570,12 @@
     <MESSAGE value="add new task: String used RegExp!!! found part of string" />
     <MESSAGE value="add new task: String used RegExp!!! found part of string - comments" />
     <MESSAGE value="add new tasks" />
-    <MESSAGE value="add new task: practice" />
     <MESSAGE value="add new task: Math.round" />
     <MESSAGE value="add new task: loops" />
     <MESSAGE value="add new task: Sum = array squares numbers" />
     <MESSAGE value="add new task: array" />
-    <option name="LAST_COMMIT_MESSAGE" value="add new task: array" />
+    <MESSAGE value="add new task: practice" />
+    <option name="LAST_COMMIT_MESSAGE" value="add new task: practice" />
   </component>
   <component name="antWorkspaceConfiguration">
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
@@ -606,8 +606,8 @@
     <entry file="file://$PROJECT_DIR$/Practice 8kyu/8kyu.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="614">
-            <caret line="173" column="1" selection-start-line="173" selection-start-column="1" selection-end-line="173" selection-end-column="1" />
+          <first_editor relative-caret-position="569">
+            <caret line="189" column="2" selection-start-line="189" selection-start-column="2" selection-end-line="189" selection-end-column="2" />
           </first_editor>
           <second_editor />
         </state>
