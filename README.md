@@ -1907,3 +1907,20 @@ function stockList(listOfArt, listOfCat){
   return strRes
 }
 ```
+* The Deaf Rats of Hamelin
+```javascript
+function countDeafRats(town) {
+ town = town.split(' ').join('')
+  let town1 = town.substring(0, town.indexOf('P'));
+  let town2 = town.substring(town.indexOf('P')+1, town.length);
+  let res = 0;
+  
+    for (let i=0; i < town1.length; i +=2){
+      if (town1[i] == 'O' && town1[i+1] == '~'){ res++}
+    }
+    for (let i=0; i < town2.length; i +=2){
+      if (town2[i] == '~' && town2[i+1] == 'O'){ res++}
+    }  
+  return res
+}
+```
