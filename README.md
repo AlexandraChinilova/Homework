@@ -1924,3 +1924,41 @@ function countDeafRats(town) {
   return res
 }
 ```
+* Vowels Back
+```javascript
+function vowelBack(s){
+console.log(s)
+let alf = 'abcdefghijklmnopqrstuvwxyz';
+let v = 'aeiouy';
+let c = 'bcdfghjklmnpqrstvwxz';
+let box = 0;
+let res = '';
+
+ for (let i=0; i < s.length; i++){
+   if (s[i] == 'e' || s[i] == 'd'){res += 'a'}
+   if (s[i] == 'c'){res += 'b'}
+   if (s[i] == 'o'){res += 'n'}
+   if (s[i] == 'y'){res += 'h'}
+  
+  if ('edcoy'.includes(s[i]) == false){
+  if (c.includes(s[i]) == true){
+    box = alf.indexOf(s[i]) + 9;
+     if (box > 25){box = box - 26}
+     if (alf[box] == 'c' || alf[box] == 'o' || alf[box] == 'd'
+         || alf[box] == 'e'){ res += s[i]}
+    else {res += alf[box]};
+  }
+  
+  if (v.includes(s[i]) == true){
+    box = alf.indexOf(s[i]) - 5;
+    if (box < 0){box = 26 + box}
+     if (alf[box] == 'c' || alf[box] == 'o' || alf[box] == 'd'
+         || alf[box] == 'e'){ res += s[i]}
+    else {res += alf[box]};
+  }
+ }
+ }
+
+return res
+}
+```
