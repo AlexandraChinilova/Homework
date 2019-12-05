@@ -1981,3 +1981,23 @@ console.log(a,b)
   return res.sort((p,t) => p-t)
 }
 ```
+* Meeting
+```javascript
+function meeting(s){
+
+s = s.replace(/:/g, ';').toUpperCase().split(';')
+let names = [];
+let lastn = [];
+
+for (let list=0; list < s.length; list++){
+  list %2 == 0 ? names.push(s[list]) : lastn.push(s[list])
+}
+
+let upside = []
+for (let u=0; u < lastn.length; u++){
+  upside[u]= `(${lastn[u]}, ${names[u]})`
+}
+  
+return upside.sort().join('')
+}
+```
