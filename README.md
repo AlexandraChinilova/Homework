@@ -1962,3 +1962,22 @@ let res = '';
 return res
 }
 ```
+* Thinking & Testing : Uniq or not Uniq
+```javascript
+function testit(a,b){
+let res = [];
+a.sort();
+b.sort();
+res.push(a[0]);
+for (let i=1; i < a.length; i++){
+  if (a[i] != a[i-1]){res.push(a[i])}
+}
+
+res.push(b[0])
+for (let j=1; j < b.length; j++){
+  if (b[j] != b[j-1]){res.push(b[j])}
+}
+console.log(a,b)
+  return res.sort((p,t) => p-t)
+}
+```
