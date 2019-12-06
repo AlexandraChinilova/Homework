@@ -2000,4 +2000,15 @@ for (let u=0; u < lastn.length; u++){
   
 return upside.sort().join('')
 }
+
+//second short my solution
+function meeting(s){
+s = s.replace(/:/g, ';').toUpperCase().split(';')
+let res = [];
+
+for (let u=1; u < s.length; u += 2){
+  res.push(`(${s[u]}, ${s[u-1]})`)
+}
+return res.sort().join('')
+}
 ```
