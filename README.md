@@ -2012,3 +2012,87 @@ for (let u=1; u < s.length; u += 2){
 return res.sort().join('')
 }
 ```
+* Integer to English
+```javascript
+function intToEnglish(number){
+  const arrUnit = ['', 'one', 'two', 'three', 'four', 'five', 'six', 'seven', 'eight', 'nine'];
+  const arrDoz = ['ten', 'eleven', 'twelve', 'thirteen', 'fourteen', 'fifteen', 'sixteen', 'seventeen', 'eighteen', 'nineteen'];
+  const arrDozen = ['', '', 'twenty', 'thirty', 'forty', 'fifty', 'sixty', 'seventy', 'eighty', 'ninety'];   
+   if (number == 10){return 'ten'};
+   const t = 10**3;
+     if (number%t == 0){return `${arrUnit[number/t]} thousand`}
+   const m = 10**6;
+     if (number == m){return 'one million'}
+   const b = 10**9;
+     if (number == b){return 'one billion'}
+   const tr = 10**12;
+     if (number == tr){return 'one trillion'}
+   const q = 10**15
+     if (number == q){return 'one quadrillion'}
+    
+let arrNum = [];
+    if (number < t && number >= 1){arrNum.push(String(number))}
+    if (number < m && number > t){
+      arrNum.push(String((number - number%t)/t));
+      arrNum.push(String(number%t))}
+    if (number < b && number > m){
+      arrNum.push(String((number - number%m)/m));
+      arrNum.push(String((number%m-number%t)/t));
+      arrNum.push(String(number%t))}
+    if (number < tr && number > b){
+      arrNum.push(String((number - number%b)/b));
+      arrNum.push(String((number%b - number%m)/m));
+      arrNum.push(String((number%m-number%t)/t));
+      arrNum.push(String(number%t))}
+    if (number < q && number > tr){
+      arrNum.push(String((number - number%tr)/tr));
+      arrNum.push(String((number%tr - number%b)/b));
+      arrNum.push(String((number%b - number%m)/m));
+      arrNum.push(String((number%m-number%t)/t));
+      arrNum.push(String(number%t))}
+    if (number > q){
+      arrNum.push(String((number%10**16 - number%q)/q));
+      arrNum.push(String((number%q - number%tr)/tr));
+      arrNum.push(String((number%tr - number%b)/b));
+      arrNum.push(String((number%b - number%m)/m));
+      arrNum.push(String((number%m-number%t)/t));
+      arrNum.push(String(number%t))}
+
+   function  unit(stU){return arrUnit[stU[stU.length-1]]};
+   function dozen(stD){
+     if (stD[stD.length-1] == 0){return `${arrDozen[stD[stD.length-2]]}`}
+       return `${arrDozen[stD[stD.length-2]]} ${arrUnit[stD[stD.length-1]]}`
+   }
+   function sotny(stS){
+     let res = `${arrUnit[stS[stS.length-3]]} hundred`
+     if (stS%100 == 0){return res}
+     if (stS[stS.length-2] == 0){
+       return res += ` ${unit(stS)}`
+     }
+     if (stS[stS.length-2] == 1){
+       return res += ` ${arrDoz[stS%100-10]}`
+     }
+       return res += ` ${dozen(stS)}`
+    }
+  
+   function vichisl(block){
+     if (block.length == 1) {return unit(block)}
+  
+     if (block.length == 2){
+       if (block[block.length-2] == 1){return arrDoz[block%10]}
+         return dozen(block)
+     }
+  
+     if (block.length == 3){return sotny(block)}
+    }
+  
+  for (let i = arrNum.length-1; i >=0; i--){
+    if (arrNum.length == 1){return vichisl(arrNum[0])}
+    if (arrNum.length == 2){return `${vichisl(arrNum[0])} thousand ${vichisl(arrNum[1])}`}
+    if (arrNum.length == 3){return `${vichisl(arrNum[0])} million ${vichisl(arrNum[1])} thousand ${vichisl(arrNum[2])}`}
+    if (arrNum.length == 4){return `${vichisl(arrNum[0])} billion ${vichisl(arrNum[1])} million ${vichisl(arrNum[2])} thousand ${vichisl(arrNum[3])}`}
+    if (arrNum.length == 5){return `${vichisl(arrNum[0])} trillion ${vichisl(arrNum[1])} billion ${vichisl(arrNum[2])} million ${vichisl(arrNum[3])} thousand ${vichisl(arrNum[4])}`}
+    if (arrNum.length > 5){ return `${vichisl(arrNum[0])} quadrillion ${vichisl(arrNum[1])} trillion ${vichisl(arrNum[2])} billion ${vichisl(arrNum[3])} million ${vichisl(arrNum[4])} thousand ${vichisl(arrNum[5])}`}
+  }  
+}
+```
