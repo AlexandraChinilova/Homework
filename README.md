@@ -2096,3 +2096,34 @@ let arrNum = [];
   }  
 }
 ```
+* Vasya - Clerk
+```javascript
+function tickets(line){
+  let d = 0;
+  let p = 0;
+  let s = 0;
+  for (let i=0; i < line.length; i++){
+    if (line[i] == 25){d += line[i]}
+    if (line[i] == 50){
+      if (d >= 25){
+        p += line[i];
+        d -= 25;
+      } else {return 'NO'}
+    }
+    if (line[i] == 100){
+      if (p == 0 && d >= 75){
+        s += line[i];
+        d -= 75;
+      } else {
+      if (p >= 50 && d >= 25){
+        s += line[i];
+        p -= 50;
+        d -= 25
+      }
+     else {return 'NO'}
+     }
+    }
+  }
+  return 'YES'
+}
+```

@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="babf462f-f806-4eaf-9cac-9c603d42a429" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -21,8 +20,8 @@
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="569">
-                <caret line="2010" column="1" selection-start-line="2010" selection-start-column="1" selection-end-line="2010" selection-end-column="1" />
+              <first_editor relative-caret-position="539">
+                <caret line="2096" column="1" selection-start-line="2096" selection-start-column="1" selection-end-line="2096" selection-end-column="1" />
               </first_editor>
               <second_editor />
             </state>
@@ -131,20 +130,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1561494128982</updated>
-    </task>
-    <task id="LOCAL-00071" summary="added a new task: Array (practice)">
-      <created>1565736712286</created>
-      <option name="number" value="00071" />
-      <option name="presentableId" value="LOCAL-00071" />
-      <option name="project" value="LOCAL" />
-      <updated>1565736712286</updated>
-    </task>
-    <task id="LOCAL-00072" summary="added a new task: Array (practice)">
-      <created>1565752386697</created>
-      <option name="number" value="00072" />
-      <option name="presentableId" value="LOCAL-00072" />
-      <option name="project" value="LOCAL" />
-      <updated>1565752386698</updated>
     </task>
     <task id="LOCAL-00073" summary="added a new task: Array">
       <created>1565753091451</created>
@@ -475,11 +460,25 @@
       <option name="project" value="LOCAL" />
       <updated>1575535422006</updated>
     </task>
-    <option name="localTasksCounter" value="120" />
+    <task id="LOCAL-00120" summary="add new task: method SORT in array - same task - short solution">
+      <created>1575596885349</created>
+      <option name="number" value="00120" />
+      <option name="presentableId" value="LOCAL-00120" />
+      <option name="project" value="LOCAL" />
+      <updated>1575596885349</updated>
+    </task>
+    <task id="LOCAL-00121" summary="add new task: number in string - numerics in words">
+      <created>1575792600491</created>
+      <option name="number" value="00121" />
+      <option name="presentableId" value="LOCAL-00121" />
+      <option name="project" value="LOCAL" />
+      <updated>1575792600491</updated>
+    </task>
+    <option name="localTasksCounter" value="122" />
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="61" y="23" width="1219" height="765" extended-state="0" />
+    <frame x="61" y="23" width="1219" height="765" extended-state="1" />
     <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.13043478" />
@@ -550,8 +549,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="added a new task: practice Method RegExp" />
-    <MESSAGE value="added a new task: practice array" />
     <MESSAGE value="added a new task: practice array: Methods isArray() &amp; isNaN(), function in function" />
     <MESSAGE value="added a new task: practice Math.abs() - change to positive" />
     <MESSAGE value="added a new task: decision with Object: with use - for (key in Object)" />
@@ -575,7 +572,9 @@
     <MESSAGE value="add new task: Strings - find/change symbol" />
     <MESSAGE value="add new task: method SORT" />
     <MESSAGE value="add new task: method SORT in array" />
-    <option name="LAST_COMMIT_MESSAGE" value="add new task: method SORT in array" />
+    <MESSAGE value="add new task: method SORT in array - same task - short solution" />
+    <MESSAGE value="add new task: number in string - numerics in words" />
+    <option name="LAST_COMMIT_MESSAGE" value="add new task: number in string - numerics in words" />
   </component>
   <component name="antWorkspaceConfiguration">
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
@@ -606,8 +605,8 @@
       <provider editor-type-id="text-editor" />
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="569">
-            <caret line="2010" column="1" selection-start-line="2010" selection-start-column="1" selection-end-line="2010" selection-end-column="1" />
+          <first_editor relative-caret-position="539">
+            <caret line="2096" column="1" selection-start-line="2096" selection-start-column="1" selection-end-line="2096" selection-end-column="1" />
           </first_editor>
           <second_editor />
         </state>
