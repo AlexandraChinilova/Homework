@@ -2127,3 +2127,23 @@ function tickets(line){
   return 'YES'
 }
 ```
+* Valid Parentheses
+```javascript
+function validParentheses(parens){
+  if (parens.length%2 > 0 || parens[0] == ')' || parens[parens.length-1] == '('){return false}
+  let openP = 0;
+  let closeP = 0;
+  for (let i=0; i< parens.length; i++){
+    if (parens[i] == '('){
+     openP++
+    }
+    if (parens[i] == ')'){
+      if (openP > 0){openP--}
+      else {
+      if (openP == 0){return false}
+      }
+    }
+  }
+  return openP > 0? false : true
+}
+```
