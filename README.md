@@ -2147,3 +2147,24 @@ function validParentheses(parens){
   return openP > 0? false : true
 }
 ```
+* Sort by Last Char
+```javascript
+function last(x){
+console.log(x)
+const alf = 'abcdefghijklmnopqrstuvwxyz';
+ let arr = x.split(' ');
+ if (x.match(/ /g).length == x.length){return arr}
+ arr.push(' ');
+ arr.unshift(' ');
+ console.log(arr)
+ let res = [];
+  for (let al = 0; al < alf.length; al++){
+    for (let ar = 1; ar < arr.length; ar++){
+      if (arr[ar][arr[ar].length-1] == alf[al]){
+        res.push(arr[ar]);
+      }
+    }
+  }
+   return res
+}
+```
