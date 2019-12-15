@@ -2167,4 +2167,33 @@ const alf = 'abcdefghijklmnopqrstuvwxyz';
   }
    return res
 }
+
+best solution
+function last(x){
+  return x.split(' ').sort((a, b) => a.charCodeAt(a.length - 1) - b.charCodeAt(b.length - 1));
+}
+```
+* Pairs of Bears
+```javascript
+function bears(x, s){
+let pairs = '';
+let countP = 0;
+let res = [];
+
+  for (let i=0; i < s.length; i++){
+    if (s[i] == 'B' && s[i+1] == '8'){
+      pairs += 'B8';
+      i++;
+      countP++
+    } else {
+    if (s[i] == '8' && s[i+1] == 'B'){
+      pairs += '8B';
+      i++;
+      countP++
+    }}
+  }
+res.push(pairs);
+countP >= x ? res.push(true) : res.push(false);
+return res
+}
 ```
