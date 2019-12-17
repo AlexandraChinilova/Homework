@@ -226,3 +226,14 @@ let r = 0;
  return r
 }
 ```
+* Numbers to Letters
+```javascript
+function switcher(x){
+let alf = '0zyxwvutsrqponmlkjihgfedcba!? ';
+let res = '';
+for (let i=0; i < x.length; i++){
+  res += alf[x[i]]
+}
+return res
+}
+```
