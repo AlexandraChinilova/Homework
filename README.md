@@ -2197,3 +2197,37 @@ countP >= x ? res.push(true) : res.push(false);
 return res
 }
 ```
+* Holiday II - Plane Seating
+```javascript
+function planeSeat(a){
+const left = 'ABC';
+const middle = 'DEF';
+const right = 'GHK';
+let res = '';
+let numSeat = a.match(/\d/g).join('');
+let letterS = a.match(/\D/g).join('');
+  if (numSeat > 60){ return 'No Seat!!'}
+  if (numSeat < 21){
+    res += 'Front-'
+  }
+  if (numSeat > 20 && numSeat < 41){
+    res += 'Middle-'
+  }
+  if (numSeat > 40){
+    res += 'Back-'
+  }
+  if (left.includes(letterS)){
+    res += 'Left';
+    return res
+  }
+  if (middle.includes(letterS)){
+    res += 'Middle';
+    return res
+  }
+  if (right.includes(letterS)){
+    res += 'Right';
+    return res
+  }
+  return 'No Seat!!'
+}
+```
