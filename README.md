@@ -2242,3 +2242,25 @@ if (j > 25 && j < 51){return `${j} metres: He's flying!`}
 if (j > 50){return `${j} metres: Gold!!`}
 }
 ```
+* Who has the most money?
+```javascript
+function mostMoney(stud) {
+ console.log(stud)
+ if (stud.length == 1){return stud[0].name}
+ let money = 0;
+ let count = 0;
+ let name = stud[0].name;
+ let allS = 0;
+ for (let i=0; i < stud.length; i++){
+   count = stud[i].fives*5 + stud[i].tens*10 + stud[i].twenties*20
+   console.log(count)
+   if (count > money){
+     money = count;
+     name = stud[i].name
+     console.log(name)
+     }
+   if (count == money){allS++}
+ }
+ return allS == stud.length? 'all': name
+}
+```
