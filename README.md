@@ -2231,3 +2231,14 @@ let letterS = a.match(/\D/g).join('');
   return 'No Seat!!'
 }
 ```
+* Ski Jump
+```javascript
+function skiJump(mount){
+let m = mount.length;
+let j = ((m**2*1.5*9)/10).toFixed(2);
+if (j < 10){return `${j} metres: He's crap!`}
+if (j > 9 && j < 26){return `${j} metres: He's ok!`}
+if (j > 25 && j < 51){return `${j} metres: He's flying!`}
+if (j > 50){return `${j} metres: Gold!!`}
+}
+```
