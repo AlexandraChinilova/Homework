@@ -2264,3 +2264,20 @@ function mostMoney(stud) {
  return allS == stud.length? 'all': name
 }
 ```
+* Your Ride Is Here
+```javascript
+function ride(group,comet){
+const alf = '_ABCDEFGHIJKLMNOPQRSTUVWXYZ';
+let countG = 1;
+let countC = 1;
+  for (let i=0; i < group.length; i++){
+    countG *= alf.indexOf(group[i])
+  }
+  for (let j=0; j < comet.length; j++){
+    countC *= alf.indexOf(comet[j])
+  }
+  countG = countG % 47;
+  countC = countC % 47;
+return countG == countC ? 'GO' : 'STAY'
+}
+```

@@ -22,7 +22,7 @@
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
               <first_editor relative-caret-position="599">
-                <caret line="2235" selection-start-line="2235" selection-end-line="2235" />
+                <caret line="2268" selection-start-line="2268" selection-end-line="2268" />
               </first_editor>
               <second_editor />
             </state>
@@ -46,7 +46,7 @@
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
               <first_editor relative-caret-position="539">
-                <caret line="237" column="1" lean-forward="true" selection-start-line="237" selection-start-column="1" selection-end-line="237" selection-end-column="1" />
+                <caret line="237" column="1" selection-start-line="237" selection-start-column="1" selection-end-line="237" selection-end-column="1" />
               </first_editor>
               <second_editor />
             </state>
@@ -131,20 +131,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1561494128982</updated>
-    </task>
-    <task id="LOCAL-00079" summary="added a new task: Method Math.pow(n - number, x - exponent) //возводим в степень">
-      <created>1565908104948</created>
-      <option name="number" value="00079" />
-      <option name="presentableId" value="LOCAL-00079" />
-      <option name="project" value="LOCAL" />
-      <updated>1565908104948</updated>
-    </task>
-    <task id="LOCAL-00080" summary="added a new task">
-      <created>1565926287882</created>
-      <option name="number" value="00080" />
-      <option name="presentableId" value="LOCAL-00080" />
-      <option name="project" value="LOCAL" />
-      <updated>1565926287882</updated>
     </task>
     <task id="LOCAL-00081" summary="added a new task: Method Math.abs() // преобразование отрицательного числа в положительное">
       <created>1565926851148</created>
@@ -475,7 +461,21 @@
       <option name="project" value="LOCAL" />
       <updated>1576639920667</updated>
     </task>
-    <option name="localTasksCounter" value="128" />
+    <task id="LOCAL-00128" summary="add new task">
+      <created>1576732575725</created>
+      <option name="number" value="00128" />
+      <option name="presentableId" value="LOCAL-00128" />
+      <option name="project" value="LOCAL" />
+      <updated>1576732575726</updated>
+    </task>
+    <task id="LOCAL-00129" summary="add new task: with objects in array">
+      <created>1576735239473</created>
+      <option name="number" value="00129" />
+      <option name="presentableId" value="LOCAL-00129" />
+      <option name="project" value="LOCAL" />
+      <updated>1576735239473</updated>
+    </task>
+    <option name="localTasksCounter" value="130" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -550,7 +550,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="add new task: formula Fibonacci" />
     <MESSAGE value="add new task: practice 8kyu" />
     <MESSAGE value="add new task: MAX in Array" />
     <MESSAGE value="add new task: equals strings" />
@@ -575,7 +574,8 @@
     <MESSAGE value="add new task: strings - loops" />
     <MESSAGE value="add new task: strings - practice" />
     <MESSAGE value="add new task" />
-    <option name="LAST_COMMIT_MESSAGE" value="add new task" />
+    <MESSAGE value="add new task: with objects in array" />
+    <option name="LAST_COMMIT_MESSAGE" value="add new task: with objects in array" />
   </component>
   <component name="antWorkspaceConfiguration">
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
@@ -596,7 +596,7 @@
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
           <first_editor relative-caret-position="539">
-            <caret line="237" column="1" lean-forward="true" selection-start-line="237" selection-start-column="1" selection-end-line="237" selection-end-column="1" />
+            <caret line="237" column="1" selection-start-line="237" selection-start-column="1" selection-end-line="237" selection-end-column="1" />
           </first_editor>
           <second_editor />
         </state>
@@ -607,7 +607,7 @@
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
           <first_editor relative-caret-position="599">
-            <caret line="2235" selection-start-line="2235" selection-end-line="2235" />
+            <caret line="2268" selection-start-line="2268" selection-end-line="2268" />
           </first_editor>
           <second_editor />
         </state>
