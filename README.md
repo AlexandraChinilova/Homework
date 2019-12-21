@@ -2281,3 +2281,14 @@ let countC = 1;
 return countG == countC ? 'GO' : 'STAY'
 }
 ```
+* Borrower Speak
+```javascript
+function borrow(s){
+let res = '';
+for (let i=0; i < s.length; i++){
+ res += s[i].toLowerCase()
+}
+res = res.match(/\w/g).join('')
+return res
+}
+```
