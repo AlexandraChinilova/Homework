@@ -2292,3 +2292,24 @@ res = res.match(/\w/g).join('')
 return res
 }
 ```
+* All Star Code Challenge #22
+```javascript
+function toTime(sec) {
+let h = 0;
+let m = 0;
+let ost = sec - Math.floor(sec/3600)*3600;
+console.log(ost)
+if (sec > 60){
+  if (sec < 3600){
+    m = Math.floor(sec/60)
+  }
+  if (sec%3600 > 0 && ost > 60){
+    m = Math.floor(ost/60)
+  }
+  if (sec >= 3600){
+    h = Math.floor(sec/3600)
+  }
+}
+return `${h} hour(s) and ${m} minute(s)`
+}
+```
