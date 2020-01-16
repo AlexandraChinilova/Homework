@@ -2328,3 +2328,22 @@ numb.sort((a, b) => a - b);
 return numb.concat(str)
 }
 ```
+* Cat and Mouse - Harder Version
+```javascript
+function catMouse(x, j){
+  if (x.includes('C') == false || x.includes('m') == false || x.includes('D') == false){
+    return 'boring without all three'
+  }
+let posC = x.indexOf('C');
+let posm = x.indexOf('m');
+let posD = x.indexOf('D');
+let farCm = Math.abs(posm - posC);
+  if (farCm <= j){
+    if (posD > posm && posD < posC || posD > posC && posD < posm){
+      return 'Protected!'
+    }
+    return 'Caught!'
+  }
+return 'Escaped!'
+}
+```
