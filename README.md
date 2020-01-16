@@ -2313,3 +2313,18 @@ if (sec > 60){
 return `${h} hour(s) and ${m} minute(s)`
 }
 ```
+* Double Sort
+```javascript
+function dbSort(a){
+let str = [];
+let numb = [];
+for (j=0; j < a.length; j++){
+ if (typeof a[j] == 'string'){
+   str.push(a[j])
+ } else {numb.push(a[j])}
+}
+str.sort();
+numb.sort((a, b) => a - b);
+return numb.concat(str)
+}
+```
